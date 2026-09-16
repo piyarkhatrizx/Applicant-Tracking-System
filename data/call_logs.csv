@@ -1,0 +1,762 @@
+id,applicant_id,direction,disposition,duration_seconds,phone_number,notes,summary,started_at,ended_at
+1,3,OUTBOUND,VOICEMAIL,47,2165550131,Left voicemail with callback number.,"Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: Left voicemail. Duration: 47s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-06-22T20:16:00.000Z,2026-06-22T20:16:47.000Z
+2,3,OUTBOUND,NO_ANSWER,31,2165550131,,"Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: No answer. Duration: 31s.
+Next step: Try again at a different time of day.",2026-06-23T19:01:00.000Z,2026-06-23T19:01:31.000Z
+3,3,OUTBOUND,CONNECTED,908,2165550131,"Warm, clear communicator. Moving forward.","Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: Reached. Duration: 15m 08s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-06-24T13:33:00.000Z,2026-06-24T13:48:08.000Z
+4,6,OUTBOUND,NO_ANSWER,33,3305550169,"Rang out, no voicemail set up.","Outbound call to Valerie Torres, (330) 555-0169.
+Outcome: No answer. Duration: 33s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-06-25T19:10:00.000Z,2026-06-25T19:10:33.000Z
+5,3,OUTBOUND,NO_ANSWER,26,2165550131,,"Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: No answer. Duration: 26s.
+Next step: Try again at a different time of day.",2026-06-25T20:03:00.000Z,2026-06-25T20:03:26.000Z
+6,6,OUTBOUND,NO_ANSWER,19,3305550169,,"Outbound call to Valerie Torres, (330) 555-0169.
+Outcome: No answer. Duration: 19s.
+Next step: Try again at a different time of day.",2026-06-26T15:18:00.000Z,2026-06-26T15:18:19.000Z
+7,3,OUTBOUND,CONNECTED,237,2165550131,,"Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: Reached. Duration: 3m 57s.
+Next step: Update the applicant's stage to match the conversation.",2026-06-26T16:30:00.000Z,2026-06-26T16:33:57.000Z
+8,7,OUTBOUND,NO_ANSWER,21,2165550170,,"Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: No answer. Duration: 21s.
+Next step: Try again at a different time of day.",2026-06-26T18:58:00.000Z,2026-06-26T18:58:21.000Z
+9,3,OUTBOUND,CONNECTED,425,2165550131,Offer call. Asked for a day to think it over.,"Outbound call to Yasmin Jenkins, (216) 555-0131.
+Outcome: Reached. Duration: 7m 05s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-06-29T16:23:00.000Z,2026-06-29T16:30:05.000Z
+10,8,OUTBOUND,VOICEMAIL,49,4405550194,,"Outbound call to Destiny Henderson, (440) 555-0194.
+Outcome: Left voicemail. Duration: 49s.
+Next step: Try again tomorrow if there is no callback.",2026-06-29T17:38:00.000Z,2026-06-29T17:38:49.000Z
+11,6,OUTBOUND,NO_ANSWER,32,3305550169,,"Outbound call to Valerie Torres, (330) 555-0169.
+Outcome: No answer. Duration: 32s.
+Next step: Try again at a different time of day.",2026-06-29T17:56:00.000Z,2026-06-29T17:56:32.000Z
+12,8,OUTBOUND,CONNECTED,659,4405550194,"Warm, clear communicator. Moving forward.","Outbound call to Destiny Henderson, (440) 555-0194.
+Outcome: Reached. Duration: 10m 59s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-06-29T18:54:00.000Z,2026-06-29T19:04:59.000Z
+13,7,OUTBOUND,CONNECTED,875,2165550170,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: Reached. Duration: 14m 35s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-06-29T20:35:00.000Z,2026-06-29T20:49:35.000Z
+14,6,OUTBOUND,CONNECTED,311,3305550169,Needs a schedule we cannot offer right now.,"Outbound call to Valerie Torres, (330) 555-0169.
+Outcome: Reached. Duration: 5m 11s.
+Notes: Needs a schedule we cannot offer right now.
+Next step: Update the applicant's stage to match the conversation.",2026-06-30T13:10:00.000Z,2026-06-30T13:15:11.000Z
+15,13,OUTBOUND,CALLBACK_REQUESTED,48,4405550121,"At work, asked for a call back after 5pm.","Outbound call to Dmitri Fernández, (440) 555-0121.
+Outcome: Callback requested. Duration: 48s.
+Notes: At work, asked for a call back after 5pm.
+Next step: Call back at the time requested.",2026-06-30T18:15:00.000Z,2026-06-30T18:15:48.000Z
+16,9,OUTBOUND,NO_ANSWER,21,4405550157,,"Outbound call to Nadia Mahmoud, (440) 555-0157.
+Outcome: No answer. Duration: 21s.
+Next step: Try again at a different time of day.",2026-06-30T18:18:00.000Z,2026-06-30T18:18:21.000Z
+17,13,OUTBOUND,NO_ANSWER,24,4405550121,,"Outbound call to Dmitri Fernández, (440) 555-0121.
+Outcome: No answer. Duration: 24s.
+Next step: Try again at a different time of day.",2026-06-30T18:57:48.000Z,2026-06-30T18:58:12.000Z
+18,13,OUTBOUND,CONNECTED,683,4405550121,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Dmitri Fernández, (440) 555-0121.
+Outcome: Reached. Duration: 11m 23s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-06-30T19:14:00.000Z,2026-06-30T19:25:23.000Z
+19,7,OUTBOUND,VOICEMAIL,44,2165550170,,"Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: Left voicemail. Duration: 44s.
+Next step: Try again tomorrow if there is no callback.",2026-06-30T19:39:00.000Z,2026-06-30T19:39:44.000Z
+20,8,OUTBOUND,CONNECTED,187,4405550194,,"Outbound call to Destiny Henderson, (440) 555-0194.
+Outcome: Reached. Duration: 3m 07s.
+Next step: Update the applicant's stage to match the conversation.",2026-07-01T13:41:00.000Z,2026-07-01T13:44:07.000Z
+21,7,OUTBOUND,CONNECTED,106,2165550170,Confirmed the interview time and sent the address.,"Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: Reached. Duration: 1m 46s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-07-01T17:10:00.000Z,2026-07-01T17:11:46.000Z
+22,9,OUTBOUND,CONNECTED,768,4405550157,"Warm, clear communicator. Moving forward.","Outbound call to Nadia Mahmoud, (440) 555-0157.
+Outcome: Reached. Duration: 12m 48s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-07-01T19:50:00.000Z,2026-07-01T20:02:48.000Z
+23,8,OUTBOUND,WRONG_NUMBER,31,4405550194,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Destiny Henderson, (440) 555-0194.
+Outcome: Wrong number. Duration: 31s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-07-06T14:47:00.000Z,2026-07-06T14:47:31.000Z
+24,8,OUTBOUND,CONNECTED,523,4405550194,"Went over pay, schedule and start date.","Outbound call to Destiny Henderson, (440) 555-0194.
+Outcome: Reached. Duration: 8m 43s.
+Notes: Went over pay, schedule and start date.
+Next step: Update the applicant's stage to match the conversation.",2026-07-06T15:29:31.000Z,2026-07-06T15:38:14.000Z
+25,7,OUTBOUND,NO_ANSWER,26,2165550170,"Rang out, no voicemail set up.","Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: No answer. Duration: 26s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-06T16:43:00.000Z,2026-07-06T16:43:26.000Z
+26,7,OUTBOUND,CONNECTED,562,2165550170,Offer call. Asked for a day to think it over.,"Outbound call to Marcus O'Neill, (216) 555-0170.
+Outcome: Reached. Duration: 9m 22s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-07-07T13:01:00.000Z,2026-07-07T13:10:22.000Z
+27,8,INBOUND,CONNECTED,388,4405550194,Called to decline; took another role.,"Inbound call from Destiny Henderson, (440) 555-0194.
+Outcome: Reached. Duration: 6m 28s.
+Notes: Called to decline; took another role.
+Next step: Update the applicant's stage to match the conversation.",2026-07-07T17:46:00.000Z,2026-07-07T17:52:28.000Z
+28,22,OUTBOUND,NO_ANSWER,23,2345550165,,"Outbound call to Nicole Vargas, (234) 555-0165.
+Outcome: No answer. Duration: 23s.
+Next step: Try again at a different time of day.",2026-07-17T14:20:00.000Z,2026-07-17T14:20:23.000Z
+29,22,OUTBOUND,CALLBACK_REQUESTED,37,2345550165,"Driving, asked to be called tomorrow morning.","Outbound call to Nicole Vargas, (234) 555-0165.
+Outcome: Callback requested. Duration: 37s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-07-20T14:16:00.000Z,2026-07-20T14:16:37.000Z
+30,22,OUTBOUND,CONNECTED,967,2345550165,"Warm, clear communicator. Moving forward.","Outbound call to Nicole Vargas, (234) 555-0165.
+Outcome: Reached. Duration: 16m 07s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-07-21T17:17:00.000Z,2026-07-21T17:33:07.000Z
+31,27,OUTBOUND,CONNECTED,468,2165550125,Looking for a clinical role; this is non-medical care.,"Outbound call to Maria Bennett, (216) 555-0125.
+Outcome: Reached. Duration: 7m 48s.
+Notes: Looking for a clinical role; this is non-medical care.
+Next step: Update the applicant's stage to match the conversation.",2026-07-21T18:37:00.000Z,2026-07-21T18:44:48.000Z
+32,26,OUTBOUND,NO_ANSWER,25,2345550117,"Rang out, no voicemail set up.","Outbound call to Elena Torres, (234) 555-0117.
+Outcome: No answer. Duration: 25s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-21T20:00:00.000Z,2026-07-21T20:00:25.000Z
+33,29,OUTBOUND,NO_ANSWER,24,2165550128,"Rang out, no voicemail set up.","Outbound call to Teresa Henderson, (216) 555-0128.
+Outcome: No answer. Duration: 24s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-22T16:40:00.000Z,2026-07-22T16:40:24.000Z
+34,26,OUTBOUND,NO_ANSWER,18,2345550117,"Rang out, no voicemail set up.","Outbound call to Elena Torres, (234) 555-0117.
+Outcome: No answer. Duration: 18s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-22T17:36:00.000Z,2026-07-22T17:36:18.000Z
+35,32,OUTBOUND,CONNECTED,664,4405550116,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to DeShawn Silva, (440) 555-0116.
+Outcome: Reached. Duration: 11m 04s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-07-22T17:39:00.000Z,2026-07-22T17:50:04.000Z
+36,29,OUTBOUND,NO_ANSWER,18,2165550128,"Rang out, no voicemail set up.","Outbound call to Teresa Henderson, (216) 555-0128.
+Outcome: No answer. Duration: 18s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-23T16:35:00.000Z,2026-07-23T16:35:18.000Z
+37,32,OUTBOUND,NO_ANSWER,21,4405550116,,"Outbound call to DeShawn Silva, (440) 555-0116.
+Outcome: No answer. Duration: 21s.
+Next step: Try again at a different time of day.",2026-07-23T17:23:00.000Z,2026-07-23T17:23:21.000Z
+38,32,OUTBOUND,CONNECTED,181,4405550116,Confirmed the interview time and sent the address.,"Outbound call to DeShawn Silva, (440) 555-0116.
+Outcome: Reached. Duration: 3m 01s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-07-23T18:47:00.000Z,2026-07-23T18:50:01.000Z
+39,26,OUTBOUND,VOICEMAIL,44,2345550117,,"Outbound call to Elena Torres, (234) 555-0117.
+Outcome: Left voicemail. Duration: 44s.
+Next step: Try again tomorrow if there is no callback.",2026-07-24T14:51:00.000Z,2026-07-24T14:51:44.000Z
+40,31,OUTBOUND,CALLBACK_REQUESTED,76,2165550143,"Driving, asked to be called tomorrow morning.","Outbound call to Luz Kowalski, (216) 555-0143.
+Outcome: Callback requested. Duration: 1m 16s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-07-24T16:34:00.000Z,2026-07-24T16:35:16.000Z
+41,29,OUTBOUND,VOICEMAIL,34,2165550128,,"Outbound call to Teresa Henderson, (216) 555-0128.
+Outcome: Left voicemail. Duration: 34s.
+Next step: Try again tomorrow if there is no callback.",2026-07-27T15:47:00.000Z,2026-07-27T15:47:34.000Z
+42,34,OUTBOUND,NO_ANSWER,28,2165550132,,"Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: No answer. Duration: 28s.
+Next step: Try again at a different time of day.",2026-07-27T17:09:00.000Z,2026-07-27T17:09:28.000Z
+43,34,OUTBOUND,NO_ANSWER,21,2165550132,,"Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: No answer. Duration: 21s.
+Next step: Try again at a different time of day.",2026-07-27T17:27:00.000Z,2026-07-27T17:27:21.000Z
+44,26,OUTBOUND,CONNECTED,766,2345550117,Available immediately. Asked about mileage reimbursement.,"Outbound call to Elena Torres, (234) 555-0117.
+Outcome: Reached. Duration: 12m 46s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-07-27T19:34:00.000Z,2026-07-27T19:46:46.000Z
+45,31,OUTBOUND,VOICEMAIL,44,2165550143,,"Outbound call to Luz Kowalski, (216) 555-0143.
+Outcome: Left voicemail. Duration: 44s.
+Next step: Try again tomorrow if there is no callback.",2026-07-27T20:24:00.000Z,2026-07-27T20:24:44.000Z
+46,34,OUTBOUND,NO_ANSWER,23,2165550132,"Rang out, no voicemail set up.","Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: No answer. Duration: 23s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-28T15:21:00.000Z,2026-07-28T15:21:23.000Z
+47,34,OUTBOUND,CONNECTED,426,2165550132,"Warm, clear communicator. Moving forward.","Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: Reached. Duration: 7m 06s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-07-28T16:21:00.000Z,2026-07-28T16:28:06.000Z
+48,31,OUTBOUND,CONNECTED,504,2165550143,Walked through a typical shift. Comfortable with transfers and bathing.,"Outbound call to Luz Kowalski, (216) 555-0143.
+Outcome: Reached. Duration: 8m 24s.
+Notes: Walked through a typical shift. Comfortable with transfers and bathing.
+Next step: Update the applicant's stage to match the conversation.",2026-07-28T17:29:00.000Z,2026-07-28T17:37:24.000Z
+49,29,OUTBOUND,NO_ANSWER,25,2165550128,,"Outbound call to Teresa Henderson, (216) 555-0128.
+Outcome: No answer. Duration: 25s.
+Next step: Try again at a different time of day.",2026-07-28T20:31:00.000Z,2026-07-28T20:31:25.000Z
+50,34,OUTBOUND,CONNECTED,118,2165550132,Confirmed the interview time and sent the address.,"Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: Reached. Duration: 1m 58s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-07-30T18:15:00.000Z,2026-07-30T18:16:58.000Z
+51,31,OUTBOUND,NO_ANSWER,26,2165550143,"Rang out, no voicemail set up.","Outbound call to Luz Kowalski, (216) 555-0143.
+Outcome: No answer. Duration: 26s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-07-30T19:12:00.000Z,2026-07-30T19:12:26.000Z
+52,31,OUTBOUND,CONNECTED,211,2165550143,Booked the in-person interview.,"Outbound call to Luz Kowalski, (216) 555-0143.
+Outcome: Reached. Duration: 3m 31s.
+Notes: Booked the in-person interview.
+Next step: Update the applicant's stage to match the conversation.",2026-07-31T20:49:00.000Z,2026-07-31T20:52:31.000Z
+53,34,OUTBOUND,CONNECTED,299,2165550132,Offer call. Asked for a day to think it over.,"Outbound call to Kevin Vargas, (216) 555-0132.
+Outcome: Reached. Duration: 4m 59s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-08-03T17:06:00.000Z,2026-08-03T17:10:59.000Z
+54,37,OUTBOUND,NO_ANSWER,33,4405550151,"Rang out, no voicemail set up.","Outbound call to Quiana Okonkwo, (440) 555-0151.
+Outcome: No answer. Duration: 33s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-04T17:21:00.000Z,2026-08-04T17:21:33.000Z
+55,37,OUTBOUND,NO_ANSWER,20,4405550151,,"Outbound call to Quiana Okonkwo, (440) 555-0151.
+Outcome: No answer. Duration: 20s.
+Next step: Try again at a different time of day.",2026-08-05T13:00:00.000Z,2026-08-05T13:00:20.000Z
+56,37,OUTBOUND,VOICEMAIL,49,4405550151,,"Outbound call to Quiana Okonkwo, (440) 555-0151.
+Outcome: Left voicemail. Duration: 49s.
+Next step: Try again tomorrow if there is no callback.",2026-08-06T15:58:00.000Z,2026-08-06T15:58:49.000Z
+57,37,INBOUND,CONNECTED,181,4405550151,Needs a schedule we cannot offer right now.,"Inbound call from Quiana Okonkwo, (440) 555-0151.
+Outcome: Reached. Duration: 3m 01s.
+Notes: Needs a schedule we cannot offer right now.
+Next step: Update the applicant's stage to match the conversation.",2026-08-07T13:43:00.000Z,2026-08-07T13:46:01.000Z
+58,48,OUTBOUND,VOICEMAIL,27,2165550183,Left voicemail with callback number.,"Outbound call to Ifeoma Nwosu, (216) 555-0183.
+Outcome: Left voicemail. Duration: 27s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-07T20:28:00.000Z,2026-08-07T20:28:27.000Z
+59,43,OUTBOUND,CONNECTED,188,2165550113,Needs a schedule we cannot offer right now.,"Outbound call to Maria Abara, (216) 555-0113.
+Outcome: Reached. Duration: 3m 08s.
+Notes: Needs a schedule we cannot offer right now.
+Next step: Update the applicant's stage to match the conversation.",2026-08-10T16:18:00.000Z,2026-08-10T16:21:08.000Z
+60,48,OUTBOUND,NO_ANSWER,26,2165550183,"Rang out, no voicemail set up.","Outbound call to Ifeoma Nwosu, (216) 555-0183.
+Outcome: No answer. Duration: 26s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-10T17:05:00.000Z,2026-08-10T17:05:26.000Z
+61,48,OUTBOUND,CONNECTED,670,2165550183,"Warm, clear communicator. Moving forward.","Outbound call to Ifeoma Nwosu, (216) 555-0183.
+Outcome: Reached. Duration: 11m 10s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-08-10T17:23:26.000Z,2026-08-10T17:34:36.000Z
+62,44,OUTBOUND,CALLBACK_REQUESTED,77,2165550122,"At work, asked for a call back after 5pm.","Outbound call to Gloria Nguyen, (216) 555-0122.
+Outcome: Callback requested. Duration: 1m 17s.
+Notes: At work, asked for a call back after 5pm.
+Next step: Call back at the time requested.",2026-08-10T19:14:00.000Z,2026-08-10T19:15:17.000Z
+63,48,OUTBOUND,CONNECTED,184,2165550183,,"Outbound call to Ifeoma Nwosu, (216) 555-0183.
+Outcome: Reached. Duration: 3m 04s.
+Next step: Update the applicant's stage to match the conversation.",2026-08-11T16:27:00.000Z,2026-08-11T16:30:04.000Z
+64,44,OUTBOUND,NO_ANSWER,19,2165550122,,"Outbound call to Gloria Nguyen, (216) 555-0122.
+Outcome: No answer. Duration: 19s.
+Next step: Try again at a different time of day.",2026-08-11T18:04:00.000Z,2026-08-11T18:04:19.000Z
+65,54,OUTBOUND,VOICEMAIL,43,2345550109,Left voicemail with callback number.,"Outbound call to Carmen Kowalski, (234) 555-0109.
+Outcome: Left voicemail. Duration: 43s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-11T20:54:00.000Z,2026-08-11T20:54:43.000Z
+66,44,OUTBOUND,CONNECTED,432,2165550122,Needs a schedule we cannot offer right now.,"Outbound call to Gloria Nguyen, (216) 555-0122.
+Outcome: Reached. Duration: 7m 12s.
+Notes: Needs a schedule we cannot offer right now.
+Next step: Update the applicant's stage to match the conversation.",2026-08-12T15:59:00.000Z,2026-08-12T16:06:12.000Z
+67,54,OUTBOUND,CALLBACK_REQUESTED,33,2345550109,"At work, asked for a call back after 5pm.","Outbound call to Carmen Kowalski, (234) 555-0109.
+Outcome: Callback requested. Duration: 33s.
+Notes: At work, asked for a call back after 5pm.
+Next step: Call back at the time requested.",2026-08-13T16:51:00.000Z,2026-08-13T16:51:33.000Z
+68,48,OUTBOUND,CONNECTED,572,2165550183,"Went over pay, schedule and start date.","Outbound call to Ifeoma Nwosu, (216) 555-0183.
+Outcome: Reached. Duration: 9m 32s.
+Notes: Went over pay, schedule and start date.
+Next step: Update the applicant's stage to match the conversation.",2026-08-13T20:49:00.000Z,2026-08-13T20:58:32.000Z
+69,54,OUTBOUND,VOICEMAIL,37,2345550109,Left voicemail with callback number.,"Outbound call to Carmen Kowalski, (234) 555-0109.
+Outcome: Left voicemail. Duration: 37s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-14T20:53:00.000Z,2026-08-14T20:53:37.000Z
+70,54,OUTBOUND,VOICEMAIL,39,2345550109,Left voicemail with callback number.,"Outbound call to Carmen Kowalski, (234) 555-0109.
+Outcome: Left voicemail. Duration: 39s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-17T14:31:00.000Z,2026-08-17T14:31:39.000Z
+71,57,OUTBOUND,WRONG_NUMBER,24,2165550173,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Luis Yilmaz, (216) 555-0173.
+Outcome: Wrong number. Duration: 24s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-08-18T16:07:00.000Z,2026-08-18T16:07:24.000Z
+72,59,OUTBOUND,NO_ANSWER,18,2345550190,"Rang out, no voicemail set up.","Outbound call to Marisol Griffin, (234) 555-0190.
+Outcome: No answer. Duration: 18s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-18T18:07:00.000Z,2026-08-18T18:07:18.000Z
+73,57,OUTBOUND,CONNECTED,487,2165550173,Available immediately. Asked about mileage reimbursement.,"Outbound call to Luis Yilmaz, (216) 555-0173.
+Outcome: Reached. Duration: 8m 07s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-08-19T13:56:00.000Z,2026-08-19T14:04:07.000Z
+74,59,OUTBOUND,CONNECTED,998,2345550190,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Marisol Griffin, (234) 555-0190.
+Outcome: Reached. Duration: 16m 38s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-08-19T16:02:00.000Z,2026-08-19T16:18:38.000Z
+75,63,OUTBOUND,CALLBACK_REQUESTED,37,3305550175,"Driving, asked to be called tomorrow morning.","Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: Callback requested. Duration: 37s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-08-20T16:19:00.000Z,2026-08-20T16:19:37.000Z
+76,59,OUTBOUND,NO_ANSWER,32,2345550190,"Rang out, no voicemail set up.","Outbound call to Marisol Griffin, (234) 555-0190.
+Outcome: No answer. Duration: 32s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-21T13:10:00.000Z,2026-08-21T13:10:32.000Z
+77,59,OUTBOUND,CONNECTED,175,2345550190,Confirmed the interview time and sent the address.,"Outbound call to Marisol Griffin, (234) 555-0190.
+Outcome: Reached. Duration: 2m 55s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-08-21T13:34:00.000Z,2026-08-21T13:36:55.000Z
+78,63,OUTBOUND,NO_ANSWER,28,3305550175,"Rang out, no voicemail set up.","Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: No answer. Duration: 28s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-21T13:40:00.000Z,2026-08-21T13:40:28.000Z
+79,67,OUTBOUND,CONNECTED,298,2165550163,Not comfortable with overnight or live-in shifts.,"Outbound call to Teresa Williams, (216) 555-0163.
+Outcome: Reached. Duration: 4m 58s.
+Notes: Not comfortable with overnight or live-in shifts.
+Next step: Update the applicant's stage to match the conversation.",2026-08-21T14:27:00.000Z,2026-08-21T14:31:58.000Z
+80,65,OUTBOUND,VOICEMAIL,31,2345550105,,"Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Left voicemail. Duration: 31s.
+Next step: Try again tomorrow if there is no callback.",2026-08-21T14:43:00.000Z,2026-08-21T14:43:31.000Z
+81,57,OUTBOUND,CALLBACK_REQUESTED,59,2165550173,"At work, asked for a call back after 5pm.","Outbound call to Luis Yilmaz, (216) 555-0173.
+Outcome: Callback requested. Duration: 59s.
+Notes: At work, asked for a call back after 5pm.
+Next step: Call back at the time requested.",2026-08-24T15:31:00.000Z,2026-08-24T15:31:59.000Z
+82,65,OUTBOUND,VOICEMAIL,48,2345550105,Left voicemail with callback number.,"Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Left voicemail. Duration: 48s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-24T15:33:00.000Z,2026-08-24T15:33:48.000Z
+83,74,OUTBOUND,NO_ANSWER,26,2165550197,"Rang out, no voicemail set up.","Outbound call to Rosa Torres, (216) 555-0197.
+Outcome: No answer. Duration: 26s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-24T15:59:00.000Z,2026-08-24T15:59:26.000Z
+84,71,OUTBOUND,CALLBACK_REQUESTED,39,2345550124,"Driving, asked to be called tomorrow morning.","Outbound call to Ximena Fernández, (234) 555-0124.
+Outcome: Callback requested. Duration: 39s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-08-24T17:53:00.000Z,2026-08-24T17:53:39.000Z
+85,72,OUTBOUND,NO_ANSWER,21,2345550149,"Rang out, no voicemail set up.","Outbound call to Nicole Carter, (234) 555-0149.
+Outcome: No answer. Duration: 21s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-24T18:07:00.000Z,2026-08-24T18:07:21.000Z
+86,63,OUTBOUND,NO_ANSWER,29,3305550175,"Rang out, no voicemail set up.","Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: No answer. Duration: 29s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-24T20:06:00.000Z,2026-08-24T20:06:29.000Z
+87,59,OUTBOUND,CONNECTED,473,2345550190,Offer call. Asked for a day to think it over.,"Outbound call to Marisol Griffin, (234) 555-0190.
+Outcome: Reached. Duration: 7m 53s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-08-24T20:07:00.000Z,2026-08-24T20:14:53.000Z
+88,72,OUTBOUND,NO_ANSWER,24,2345550149,,"Outbound call to Nicole Carter, (234) 555-0149.
+Outcome: No answer. Duration: 24s.
+Next step: Try again at a different time of day.",2026-08-24T20:39:00.000Z,2026-08-24T20:39:24.000Z
+89,74,OUTBOUND,NO_ANSWER,35,2165550197,,"Outbound call to Rosa Torres, (216) 555-0197.
+Outcome: No answer. Duration: 35s.
+Next step: Try again at a different time of day.",2026-08-25T13:34:00.000Z,2026-08-25T13:34:35.000Z
+90,65,OUTBOUND,VOICEMAIL,34,2345550105,Left voicemail.,"Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Left voicemail. Duration: 34s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-08-25T13:56:00.000Z,2026-08-25T13:56:34.000Z
+91,72,OUTBOUND,VOICEMAIL,38,2345550149,Left voicemail with callback number.,"Outbound call to Nicole Carter, (234) 555-0149.
+Outcome: Left voicemail. Duration: 38s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-25T15:16:00.000Z,2026-08-25T15:16:38.000Z
+92,72,INBOUND,CONNECTED,1031,2345550149,"Warm, clear communicator. Moving forward.","Inbound call from Nicole Carter, (234) 555-0149.
+Outcome: Reached. Duration: 17m 11s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-08-25T15:40:38.000Z,2026-08-25T15:57:49.000Z
+93,71,OUTBOUND,VOICEMAIL,40,2345550124,,"Outbound call to Ximena Fernández, (234) 555-0124.
+Outcome: Left voicemail. Duration: 40s.
+Next step: Try again tomorrow if there is no callback.",2026-08-25T17:09:00.000Z,2026-08-25T17:09:40.000Z
+94,63,OUTBOUND,CONNECTED,463,3305550175,Available immediately. Asked about mileage reimbursement.,"Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: Reached. Duration: 7m 43s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-08-25T17:28:00.000Z,2026-08-25T17:35:43.000Z
+95,57,OUTBOUND,CONNECTED,197,2165550173,,"Outbound call to Luis Yilmaz, (216) 555-0173.
+Outcome: Reached. Duration: 3m 17s.
+Next step: Update the applicant's stage to match the conversation.",2026-08-25T18:59:00.000Z,2026-08-25T19:02:17.000Z
+96,74,OUTBOUND,CONNECTED,1053,2165550197,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Rosa Torres, (216) 555-0197.
+Outcome: Reached. Duration: 17m 33s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-08-25T20:16:00.000Z,2026-08-25T20:33:33.000Z
+97,76,OUTBOUND,NO_ANSWER,31,2345550191,"Rang out, no voicemail set up.","Outbound call to Shanice Rodriguez, (234) 555-0191.
+Outcome: No answer. Duration: 31s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-26T16:15:00.000Z,2026-08-26T16:15:31.000Z
+98,71,OUTBOUND,CONNECTED,1086,2345550124,"Warm, clear communicator. Moving forward.","Outbound call to Ximena Fernández, (234) 555-0124.
+Outcome: Reached. Duration: 18m 06s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-08-26T16:22:00.000Z,2026-08-26T16:40:06.000Z
+99,65,OUTBOUND,CONNECTED,588,2345550105,Available immediately. Asked about mileage reimbursement.,"Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Reached. Duration: 9m 48s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-08-26T19:29:00.000Z,2026-08-26T19:38:48.000Z
+100,74,OUTBOUND,CONNECTED,214,2165550197,Confirmed the interview time and sent the address.,"Outbound call to Rosa Torres, (216) 555-0197.
+Outcome: Reached. Duration: 3m 34s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-08-26T20:05:00.000Z,2026-08-26T20:08:34.000Z
+101,78,OUTBOUND,VOICEMAIL,41,2345550160,Left voicemail.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Left voicemail. Duration: 41s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-08-27T14:26:00.000Z,2026-08-27T14:26:41.000Z
+102,76,OUTBOUND,NO_ANSWER,24,2345550191,"Rang out, no voicemail set up.","Outbound call to Shanice Rodriguez, (234) 555-0191.
+Outcome: No answer. Duration: 24s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-08-28T14:50:00.000Z,2026-08-28T14:50:24.000Z
+103,78,OUTBOUND,VOICEMAIL,47,2345550160,Left voicemail with callback number.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Left voicemail. Duration: 47s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-08-28T20:56:00.000Z,2026-08-28T20:56:47.000Z
+104,76,OUTBOUND,CONNECTED,771,2345550191,Available immediately. Asked about mileage reimbursement.,"Outbound call to Shanice Rodriguez, (234) 555-0191.
+Outcome: Reached. Duration: 12m 51s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-08-31T14:31:00.000Z,2026-08-31T14:43:51.000Z
+105,78,OUTBOUND,WRONG_NUMBER,29,2345550160,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Wrong number. Duration: 29s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-08-31T15:17:00.000Z,2026-08-31T15:17:29.000Z
+106,78,OUTBOUND,CONNECTED,1015,2345550160,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Reached. Duration: 16m 55s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-08-31T16:12:29.000Z,2026-08-31T16:29:24.000Z
+107,57,OUTBOUND,CONNECTED,295,2165550173,Extended a verbal offer. Written offer going out by email.,"Outbound call to Luis Yilmaz, (216) 555-0173.
+Outcome: Reached. Duration: 4m 55s.
+Notes: Extended a verbal offer. Written offer going out by email.
+Next step: Update the applicant's stage to match the conversation.",2026-08-31T17:26:00.000Z,2026-08-31T17:30:55.000Z
+108,63,OUTBOUND,CONNECTED,205,3305550175,Booked the in-person interview.,"Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: Reached. Duration: 3m 25s.
+Notes: Booked the in-person interview.
+Next step: Update the applicant's stage to match the conversation.",2026-08-31T18:46:00.000Z,2026-08-31T18:49:25.000Z
+109,81,OUTBOUND,CALLBACK_REQUESTED,35,2165550134,"Driving, asked to be called tomorrow morning.","Outbound call to Jasmine Mensah, (216) 555-0134.
+Outcome: Callback requested. Duration: 35s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-08-31T19:08:00.000Z,2026-08-31T19:08:35.000Z
+110,65,OUTBOUND,CONNECTED,237,2345550105,Confirmed the interview time and sent the address.,"Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Reached. Duration: 3m 57s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-08-31T19:35:00.000Z,2026-08-31T19:38:57.000Z
+111,84,OUTBOUND,CALLBACK_REQUESTED,90,2165550179,"At work, asked for a call back after 5pm.","Outbound call to Tamika Castillo, (216) 555-0179.
+Outcome: Callback requested. Duration: 1m 30s.
+Notes: At work, asked for a call back after 5pm.
+Next step: Call back at the time requested.",2026-08-31T20:59:00.000Z,2026-08-31T21:00:30.000Z
+112,84,INBOUND,CONNECTED,654,2165550179,Available immediately. Asked about mileage reimbursement.,"Inbound call from Tamika Castillo, (216) 555-0179.
+Outcome: Reached. Duration: 10m 54s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-09-01T14:13:00.000Z,2026-09-01T14:23:54.000Z
+113,82,OUTBOUND,NO_ANSWER,27,3305550111,"Rang out, no voicemail set up.","Outbound call to Zainab Vargas, (330) 555-0111.
+Outcome: No answer. Duration: 27s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-01T14:27:00.000Z,2026-09-01T14:27:27.000Z
+114,81,OUTBOUND,NO_ANSWER,19,2165550134,,"Outbound call to Jasmine Mensah, (216) 555-0134.
+Outcome: No answer. Duration: 19s.
+Next step: Try again at a different time of day.",2026-09-01T15:38:00.000Z,2026-09-01T15:38:19.000Z
+115,81,OUTBOUND,CONNECTED,389,2165550134,"Warm, clear communicator. Moving forward.","Outbound call to Jasmine Mensah, (216) 555-0134.
+Outcome: Reached. Duration: 6m 29s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-09-01T16:16:00.000Z,2026-09-01T16:22:29.000Z
+116,83,OUTBOUND,NO_ANSWER,24,4405550156,,"Outbound call to Gloria Carter, (440) 555-0156.
+Outcome: No answer. Duration: 24s.
+Next step: Try again at a different time of day.",2026-09-01T18:56:00.000Z,2026-09-01T18:56:24.000Z
+117,80,OUTBOUND,NO_ANSWER,25,3305550122,"Rang out, no voicemail set up.","Outbound call to Priya Gray, (330) 555-0122.
+Outcome: No answer. Duration: 25s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-01T19:11:00.000Z,2026-09-01T19:11:25.000Z
+118,76,OUTBOUND,CONNECTED,208,2345550191,,"Outbound call to Shanice Rodriguez, (234) 555-0191.
+Outcome: Reached. Duration: 3m 28s.
+Next step: Update the applicant's stage to match the conversation.",2026-09-02T14:38:00.000Z,2026-09-02T14:41:28.000Z
+119,78,OUTBOUND,CONNECTED,234,2345550160,,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Reached. Duration: 3m 54s.
+Next step: Update the applicant's stage to match the conversation.",2026-09-02T15:38:00.000Z,2026-09-02T15:41:54.000Z
+120,82,OUTBOUND,NO_ANSWER,27,3305550111,,"Outbound call to Zainab Vargas, (330) 555-0111.
+Outcome: No answer. Duration: 27s.
+Next step: Try again at a different time of day.",2026-09-02T15:49:00.000Z,2026-09-02T15:49:27.000Z
+121,83,OUTBOUND,CONNECTED,672,4405550156,"Warm, clear communicator. Moving forward.","Outbound call to Gloria Carter, (440) 555-0156.
+Outcome: Reached. Duration: 11m 12s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-09-02T20:14:00.000Z,2026-09-02T20:25:12.000Z
+122,89,OUTBOUND,WRONG_NUMBER,20,3305550143,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Svetlana Adeyemi, (330) 555-0143.
+Outcome: Wrong number. Duration: 20s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-09-03T13:06:00.000Z,2026-09-03T13:06:20.000Z
+123,81,OUTBOUND,CONNECTED,100,2165550134,,"Outbound call to Jasmine Mensah, (216) 555-0134.
+Outcome: Reached. Duration: 1m 40s.
+Next step: Update the applicant's stage to match the conversation.",2026-09-03T13:27:00.000Z,2026-09-03T13:28:40.000Z
+124,82,OUTBOUND,CONNECTED,590,3305550111,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Zainab Vargas, (330) 555-0111.
+Outcome: Reached. Duration: 9m 50s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-09-03T13:55:00.000Z,2026-09-03T14:04:50.000Z
+125,85,OUTBOUND,CALLBACK_REQUESTED,52,3305550173,"Driving, asked to be called tomorrow morning.","Outbound call to Oksana Bui, (330) 555-0173.
+Outcome: Callback requested. Duration: 52s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-03T14:38:00.000Z,2026-09-03T14:38:52.000Z
+126,80,OUTBOUND,CALLBACK_REQUESTED,47,3305550122,"Driving, asked to be called tomorrow morning.","Outbound call to Priya Gray, (330) 555-0122.
+Outcome: Callback requested. Duration: 47s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-03T18:41:00.000Z,2026-09-03T18:41:47.000Z
+127,89,OUTBOUND,NO_ANSWER,35,3305550143,"Rang out, no voicemail set up.","Outbound call to Svetlana Adeyemi, (330) 555-0143.
+Outcome: No answer. Duration: 35s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-03T19:15:00.000Z,2026-09-03T19:15:35.000Z
+128,89,OUTBOUND,CONNECTED,217,3305550143,Looking for a clinical role; this is non-medical care.,"Outbound call to Svetlana Adeyemi, (330) 555-0143.
+Outcome: Reached. Duration: 3m 37s.
+Notes: Looking for a clinical role; this is non-medical care.
+Next step: Update the applicant's stage to match the conversation.",2026-09-04T16:18:00.000Z,2026-09-04T16:21:37.000Z
+129,78,OUTBOUND,VOICEMAIL,39,2345550160,Left voicemail with callback number.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Left voicemail. Duration: 39s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-04T16:27:00.000Z,2026-09-04T16:27:39.000Z
+130,85,OUTBOUND,CONNECTED,762,3305550173,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Oksana Bui, (330) 555-0173.
+Outcome: Reached. Duration: 12m 42s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-09-04T16:35:00.000Z,2026-09-04T16:47:42.000Z
+131,78,OUTBOUND,CONNECTED,337,2345550160,Offer call. Asked for a day to think it over.,"Outbound call to Imani Bryant, (234) 555-0160.
+Outcome: Reached. Duration: 5m 37s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-09-04T17:20:00.000Z,2026-09-04T17:25:37.000Z
+132,99,OUTBOUND,NO_ANSWER,29,4405550150,,"Outbound call to Quiana Yilmaz, (440) 555-0150.
+Outcome: No answer. Duration: 29s.
+Next step: Try again at a different time of day.",2026-09-04T18:55:00.000Z,2026-09-04T18:55:29.000Z
+133,88,OUTBOUND,NO_ANSWER,26,2165550171,,"Outbound call to Tanisha Bryant, (216) 555-0171.
+Outcome: No answer. Duration: 26s.
+Next step: Try again at a different time of day.",2026-09-04T19:21:00.000Z,2026-09-04T19:21:26.000Z
+134,80,OUTBOUND,VOICEMAIL,47,3305550122,Left voicemail.,"Outbound call to Priya Gray, (330) 555-0122.
+Outcome: Left voicemail. Duration: 47s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-07T14:01:00.000Z,2026-09-07T14:01:47.000Z
+135,76,OUTBOUND,CONNECTED,440,2345550191,Offer call. Asked for a day to think it over.,"Outbound call to Shanice Rodriguez, (234) 555-0191.
+Outcome: Reached. Duration: 7m 20s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T14:41:00.000Z,2026-09-07T14:48:20.000Z
+136,106,OUTBOUND,NO_ANSWER,25,2165550171,"Rang out, no voicemail set up.","Outbound call to Tanisha Bryant, (216) 555-0171.
+Outcome: No answer. Duration: 25s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-07T14:41:00.000Z,2026-09-07T14:41:25.000Z
+137,99,OUTBOUND,CONNECTED,496,4405550150,Not comfortable with overnight or live-in shifts.,"Outbound call to Quiana Yilmaz, (440) 555-0150.
+Outcome: Reached. Duration: 8m 16s.
+Notes: Not comfortable with overnight or live-in shifts.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T14:50:00.000Z,2026-09-07T14:58:16.000Z
+138,83,OUTBOUND,VOICEMAIL,33,4405550156,,"Outbound call to Gloria Carter, (440) 555-0156.
+Outcome: Left voicemail. Duration: 33s.
+Next step: Try again tomorrow if there is no callback.",2026-09-07T14:55:00.000Z,2026-09-07T14:55:33.000Z
+139,88,OUTBOUND,CONNECTED,222,2165550171,Looking for a clinical role; this is non-medical care.,"Outbound call to Tanisha Bryant, (216) 555-0171.
+Outcome: Reached. Duration: 3m 42s.
+Notes: Looking for a clinical role; this is non-medical care.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T17:06:00.000Z,2026-09-07T17:09:42.000Z
+140,117,OUTBOUND,NO_ANSWER,30,2345550197,,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: No answer. Duration: 30s.
+Next step: Try again at a different time of day.",2026-09-07T17:21:00.000Z,2026-09-07T17:21:30.000Z
+141,84,OUTBOUND,CONNECTED,169,2165550179,Booked the in-person interview.,"Outbound call to Tamika Castillo, (216) 555-0179.
+Outcome: Reached. Duration: 2m 49s.
+Notes: Booked the in-person interview.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T17:47:00.000Z,2026-09-07T17:49:49.000Z
+142,97,OUTBOUND,VOICEMAIL,51,3305550194,,"Outbound call to Kimberly Griffin, (330) 555-0194.
+Outcome: Left voicemail. Duration: 51s.
+Next step: Try again tomorrow if there is no callback.",2026-09-07T17:50:00.000Z,2026-09-07T17:50:51.000Z
+143,109,OUTBOUND,VOICEMAIL,45,2165550187,Left voicemail with callback number.,"Outbound call to Linda Jenkins, (216) 555-0187.
+Outcome: Left voicemail. Duration: 45s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-07T18:46:00.000Z,2026-09-07T18:46:45.000Z
+144,98,OUTBOUND,NO_ANSWER,21,3305550133,,"Outbound call to Aisha Yilmaz, (330) 555-0133.
+Outcome: No answer. Duration: 21s.
+Next step: Try again at a different time of day.",2026-09-07T19:38:00.000Z,2026-09-07T19:38:21.000Z
+145,65,OUTBOUND,CONNECTED,467,2345550105,"Went over pay, schedule and start date.","Outbound call to Brianna Johnson, (234) 555-0105.
+Outcome: Reached. Duration: 7m 47s.
+Notes: Went over pay, schedule and start date.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T20:19:00.000Z,2026-09-07T20:26:47.000Z
+146,81,OUTBOUND,CONNECTED,479,2165550134,Offer call. Asked for a day to think it over.,"Outbound call to Jasmine Mensah, (216) 555-0134.
+Outcome: Reached. Duration: 7m 59s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-09-07T20:54:00.000Z,2026-09-07T21:01:59.000Z
+147,100,OUTBOUND,WRONG_NUMBER,30,4405550131,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Tamika Price, (440) 555-0131.
+Outcome: Wrong number. Duration: 30s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-09-07T21:06:00.000Z,2026-09-07T21:06:30.000Z
+148,83,OUTBOUND,CONNECTED,139,4405550156,,"Outbound call to Gloria Carter, (440) 555-0156.
+Outcome: Reached. Duration: 2m 19s.
+Next step: Update the applicant's stage to match the conversation.",2026-09-08T13:25:00.000Z,2026-09-08T13:27:19.000Z
+149,100,OUTBOUND,NO_ANSWER,27,4405550131,"Rang out, no voicemail set up.","Outbound call to Tamika Price, (440) 555-0131.
+Outcome: No answer. Duration: 27s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-08T13:35:00.000Z,2026-09-08T13:35:27.000Z
+150,109,OUTBOUND,NO_ANSWER,24,2165550187,,"Outbound call to Linda Jenkins, (216) 555-0187.
+Outcome: No answer. Duration: 24s.
+Next step: Try again at a different time of day.",2026-09-08T14:33:00.000Z,2026-09-08T14:33:24.000Z
+151,110,OUTBOUND,VOICEMAIL,26,4405550165,Left voicemail with callback number.,"Outbound call to Nadia Chen, (440) 555-0165.
+Outcome: Left voicemail. Duration: 26s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-08T15:26:00.000Z,2026-09-08T15:26:26.000Z
+152,63,OUTBOUND,CONNECTED,335,3305550175,Offer call. Asked for a day to think it over.,"Outbound call to Jennifer Abara, (330) 555-0175.
+Outcome: Reached. Duration: 5m 35s.
+Notes: Offer call. Asked for a day to think it over.
+Next step: Update the applicant's stage to match the conversation.",2026-09-08T16:13:00.000Z,2026-09-08T16:18:35.000Z
+153,117,OUTBOUND,NO_ANSWER,34,2345550197,,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: No answer. Duration: 34s.
+Next step: Try again at a different time of day.",2026-09-08T16:18:00.000Z,2026-09-08T16:18:34.000Z
+154,107,OUTBOUND,NO_ANSWER,33,3305550161,"Rang out, no voicemail set up.","Outbound call to Crystal Castillo, (330) 555-0161.
+Outcome: No answer. Duration: 33s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-08T16:34:00.000Z,2026-09-08T16:34:33.000Z
+155,103,OUTBOUND,NO_ANSWER,22,4405550199,,"Outbound call to Svetlana Bui, (440) 555-0199.
+Outcome: No answer. Duration: 22s.
+Next step: Try again at a different time of day.",2026-09-08T17:08:00.000Z,2026-09-08T17:08:22.000Z
+156,114,OUTBOUND,NO_ANSWER,19,3305550160,,"Outbound call to Whitney Delgado, (330) 555-0160.
+Outcome: No answer. Duration: 19s.
+Next step: Try again at a different time of day.",2026-09-08T17:09:00.000Z,2026-09-08T17:09:19.000Z
+157,111,OUTBOUND,VOICEMAIL,39,4405550181,Left voicemail.,"Outbound call to Luz Tran, (440) 555-0181.
+Outcome: Left voicemail. Duration: 39s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-08T18:21:00.000Z,2026-09-08T18:21:39.000Z
+158,105,OUTBOUND,NO_ANSWER,29,4405550149,,"Outbound call to Dmitri Myers, (440) 555-0149.
+Outcome: No answer. Duration: 29s.
+Next step: Try again at a different time of day.",2026-09-08T18:43:00.000Z,2026-09-08T18:43:29.000Z
+159,92,OUTBOUND,NO_ANSWER,32,4405550188,,"Outbound call to Grace Henderson, (440) 555-0188.
+Outcome: No answer. Duration: 32s.
+Next step: Try again at a different time of day.",2026-09-08T18:47:00.000Z,2026-09-08T18:47:32.000Z
+160,95,OUTBOUND,CONNECTED,935,2345550168,Available immediately. Asked about mileage reimbursement.,"Outbound call to Svetlana Jenkins, (234) 555-0168.
+Outcome: Reached. Duration: 15m 35s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-09-08T18:49:00.000Z,2026-09-08T19:04:35.000Z
+161,106,OUTBOUND,VOICEMAIL,30,2165550171,,"Outbound call to Tanisha Bryant, (216) 555-0171.
+Outcome: Left voicemail. Duration: 30s.
+Next step: Try again tomorrow if there is no callback.",2026-09-08T18:49:00.000Z,2026-09-08T18:49:30.000Z
+162,124,OUTBOUND,NO_ANSWER,33,2165550175,,"Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: No answer. Duration: 33s.
+Next step: Try again at a different time of day.",2026-09-08T19:13:00.000Z,2026-09-08T19:13:33.000Z
+163,119,OUTBOUND,CONNECTED,818,4405550127,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Oksana Vargas, (440) 555-0127.
+Outcome: Reached. Duration: 13m 38s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-09-08T19:21:00.000Z,2026-09-08T19:34:38.000Z
+164,104,OUTBOUND,VOICEMAIL,35,2165550184,Left voicemail.,"Outbound call to Marisol Novak, (216) 555-0184.
+Outcome: Left voicemail. Duration: 35s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-08T19:58:00.000Z,2026-09-08T19:58:35.000Z
+165,108,OUTBOUND,NO_ANSWER,28,2165550179,,"Outbound call to Tamika Castillo, (216) 555-0179.
+Outcome: No answer. Duration: 28s.
+Next step: Try again at a different time of day.",2026-09-08T20:46:00.000Z,2026-09-08T20:46:28.000Z
+166,109,OUTBOUND,NO_ANSWER,22,2165550187,,"Outbound call to Linda Jenkins, (216) 555-0187.
+Outcome: No answer. Duration: 22s.
+Next step: Try again at a different time of day.",2026-09-08T20:54:00.000Z,2026-09-08T20:54:22.000Z
+167,103,OUTBOUND,VOICEMAIL,51,4405550199,Left voicemail.,"Outbound call to Svetlana Bui, (440) 555-0199.
+Outcome: Left voicemail. Duration: 51s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-09T13:23:00.000Z,2026-09-09T13:23:51.000Z
+168,110,OUTBOUND,VOICEMAIL,28,4405550165,Left voicemail with callback number.,"Outbound call to Nadia Chen, (440) 555-0165.
+Outcome: Left voicemail. Duration: 28s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-09T13:23:00.000Z,2026-09-09T13:23:28.000Z
+169,120,OUTBOUND,CONNECTED,414,2165550194,Good call. Two years with a private-duty client and wants more hours.,"Outbound call to Beatriz Kowalski, (216) 555-0194.
+Outcome: Reached. Duration: 6m 54s.
+Notes: Good call. Two years with a private-duty client and wants more hours.
+Next step: Update the applicant's stage to match the conversation.",2026-09-09T14:07:00.000Z,2026-09-09T14:13:54.000Z
+170,118,OUTBOUND,VOICEMAIL,39,2165550127,Left voicemail.,"Outbound call to Ebony Price, (216) 555-0127.
+Outcome: Left voicemail. Duration: 39s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-09T14:23:00.000Z,2026-09-09T14:23:39.000Z
+171,124,OUTBOUND,VOICEMAIL,47,2165550175,,"Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: Left voicemail. Duration: 47s.
+Next step: Try again tomorrow if there is no callback.",2026-09-09T15:11:00.000Z,2026-09-09T15:11:47.000Z
+172,109,OUTBOUND,WRONG_NUMBER,16,2165550187,Number belongs to someone else. Emailed to confirm the right number.,"Outbound call to Linda Jenkins, (216) 555-0187.
+Outcome: Wrong number. Duration: 16s.
+Notes: Number belongs to someone else. Emailed to confirm the right number.
+Next step: Confirm the number by email before calling again.",2026-09-09T16:49:00.000Z,2026-09-09T16:49:16.000Z
+173,110,OUTBOUND,CALLBACK_REQUESTED,57,4405550165,"Driving, asked to be called tomorrow morning.","Outbound call to Nadia Chen, (440) 555-0165.
+Outcome: Callback requested. Duration: 57s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-09T16:54:00.000Z,2026-09-09T16:54:57.000Z
+174,117,OUTBOUND,NO_ANSWER,29,2345550197,"Rang out, no voicemail set up.","Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: No answer. Duration: 29s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-09T17:32:00.000Z,2026-09-09T17:32:29.000Z
+175,112,OUTBOUND,CALLBACK_REQUESTED,32,2345550147,"Driving, asked to be called tomorrow morning.","Outbound call to Ximena Jackson, (234) 555-0147.
+Outcome: Callback requested. Duration: 32s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-09T17:36:00.000Z,2026-09-09T17:36:32.000Z
+176,106,OUTBOUND,NO_ANSWER,27,2165550171,"Rang out, no voicemail set up.","Outbound call to Tanisha Bryant, (216) 555-0171.
+Outcome: No answer. Duration: 27s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-09T17:38:00.000Z,2026-09-09T17:38:27.000Z
+177,117,OUTBOUND,CONNECTED,527,2345550197,Available immediately. Asked about mileage reimbursement.,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: Reached. Duration: 8m 47s.
+Notes: Available immediately. Asked about mileage reimbursement.
+Next step: Update the applicant's stage to match the conversation.",2026-09-09T18:03:29.000Z,2026-09-09T18:12:16.000Z
+178,105,OUTBOUND,NO_ANSWER,32,4405550149,,"Outbound call to Dmitri Myers, (440) 555-0149.
+Outcome: No answer. Duration: 32s.
+Next step: Try again at a different time of day.",2026-09-09T19:48:00.000Z,2026-09-09T19:48:32.000Z
+179,108,OUTBOUND,VOICEMAIL,49,2165550179,Left voicemail with callback number.,"Outbound call to Tamika Castillo, (216) 555-0179.
+Outcome: Left voicemail. Duration: 49s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-09T20:53:00.000Z,2026-09-09T20:53:49.000Z
+180,119,OUTBOUND,VOICEMAIL,44,4405550127,,"Outbound call to Oksana Vargas, (440) 555-0127.
+Outcome: Left voicemail. Duration: 44s.
+Next step: Try again tomorrow if there is no callback.",2026-09-10T14:23:00.000Z,2026-09-10T14:23:44.000Z
+181,119,OUTBOUND,CONNECTED,213,4405550127,Confirmed the interview time and sent the address.,"Outbound call to Oksana Vargas, (440) 555-0127.
+Outcome: Reached. Duration: 3m 33s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-09-10T14:39:44.000Z,2026-09-10T14:43:17.000Z
+182,117,OUTBOUND,VOICEMAIL,37,2345550197,Left voicemail with callback number.,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: Left voicemail. Duration: 37s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-10T14:40:00.000Z,2026-09-10T14:40:37.000Z
+183,117,OUTBOUND,CONNECTED,124,2345550197,,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: Reached. Duration: 2m 04s.
+Next step: Update the applicant's stage to match the conversation.",2026-09-10T14:52:00.000Z,2026-09-10T14:54:04.000Z
+184,118,OUTBOUND,VOICEMAIL,30,2165550127,Left voicemail with callback number.,"Outbound call to Ebony Price, (216) 555-0127.
+Outcome: Left voicemail. Duration: 30s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-10T16:40:00.000Z,2026-09-10T16:40:30.000Z
+185,124,OUTBOUND,VOICEMAIL,37,2165550175,Left voicemail.,"Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: Left voicemail. Duration: 37s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-10T16:59:00.000Z,2026-09-10T16:59:37.000Z
+186,131,OUTBOUND,NO_ANSWER,26,3305550134,"Rang out, no voicemail set up.","Outbound call to Yasmin Foster, (330) 555-0134.
+Outcome: No answer. Duration: 26s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-10T17:55:00.000Z,2026-09-10T17:55:26.000Z
+187,116,OUTBOUND,NO_ANSWER,28,2345550173,"Rang out, no voicemail set up.","Outbound call to DeShawn Carter, (234) 555-0173.
+Outcome: No answer. Duration: 28s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-10T19:22:00.000Z,2026-09-10T19:22:28.000Z
+188,112,OUTBOUND,CALLBACK_REQUESTED,83,2345550147,"Driving, asked to be called tomorrow morning.","Outbound call to Ximena Jackson, (234) 555-0147.
+Outcome: Callback requested. Duration: 1m 23s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-10T19:28:00.000Z,2026-09-10T19:29:23.000Z
+189,124,OUTBOUND,CONNECTED,786,2165550175,"Warm, clear communicator. Moving forward.","Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: Reached. Duration: 13m 06s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-09-10T20:39:00.000Z,2026-09-10T20:52:06.000Z
+190,116,OUTBOUND,CONNECTED,537,2345550173,"Warm, clear communicator. Moving forward.","Outbound call to DeShawn Carter, (234) 555-0173.
+Outcome: Reached. Duration: 8m 57s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-09-11T13:27:00.000Z,2026-09-11T13:35:57.000Z
+191,121,OUTBOUND,NO_ANSWER,23,3305550154,"Rang out, no voicemail set up.","Outbound call to Hye-jin Hughes, (330) 555-0154.
+Outcome: No answer. Duration: 23s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-11T15:48:00.000Z,2026-09-11T15:48:23.000Z
+192,112,OUTBOUND,NO_ANSWER,25,2345550147,,"Outbound call to Ximena Jackson, (234) 555-0147.
+Outcome: No answer. Duration: 25s.
+Next step: Try again at a different time of day.",2026-09-11T17:26:00.000Z,2026-09-11T17:26:25.000Z
+193,124,OUTBOUND,NO_ANSWER,28,2165550175,,"Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: No answer. Duration: 28s.
+Next step: Try again at a different time of day.",2026-09-11T17:29:00.000Z,2026-09-11T17:29:28.000Z
+194,131,OUTBOUND,NO_ANSWER,22,3305550134,"Rang out, no voicemail set up.","Outbound call to Yasmin Foster, (330) 555-0134.
+Outcome: No answer. Duration: 22s.
+Notes: Rang out, no voicemail set up.
+Next step: Try again at a different time of day.",2026-09-11T17:38:00.000Z,2026-09-11T17:38:22.000Z
+195,124,OUTBOUND,CONNECTED,203,2165550175,Confirmed the interview time and sent the address.,"Outbound call to Ximena Silva, (216) 555-0175.
+Outcome: Reached. Duration: 3m 23s.
+Notes: Confirmed the interview time and sent the address.
+Next step: Update the applicant's stage to match the conversation.",2026-09-11T17:39:28.000Z,2026-09-11T17:42:51.000Z
+196,128,OUTBOUND,VOICEMAIL,52,2165550129,Left voicemail.,"Outbound call to Keisha Carter, (216) 555-0129.
+Outcome: Left voicemail. Duration: 52s.
+Notes: Left voicemail.
+Next step: Try again tomorrow if there is no callback.",2026-09-11T19:22:00.000Z,2026-09-11T19:22:52.000Z
+197,119,OUTBOUND,NO_ANSWER,19,4405550127,,"Outbound call to Oksana Vargas, (440) 555-0127.
+Outcome: No answer. Duration: 19s.
+Next step: Try again at a different time of day.",2026-09-11T19:41:00.000Z,2026-09-11T19:41:19.000Z
+198,119,OUTBOUND,CONNECTED,505,4405550127,Extended a verbal offer. Written offer going out by email.,"Outbound call to Oksana Vargas, (440) 555-0127.
+Outcome: Reached. Duration: 8m 25s.
+Notes: Extended a verbal offer. Written offer going out by email.
+Next step: Update the applicant's stage to match the conversation.",2026-09-11T20:28:19.000Z,2026-09-11T20:36:44.000Z
+199,117,OUTBOUND,CONNECTED,572,2345550197,Extended a verbal offer. Written offer going out by email.,"Outbound call to Destiny Adeyemi, (234) 555-0197.
+Outcome: Reached. Duration: 9m 32s.
+Notes: Extended a verbal offer. Written offer going out by email.
+Next step: Update the applicant's stage to match the conversation.",2026-09-14T14:20:00.000Z,2026-09-14T14:29:32.000Z
+200,83,OUTBOUND,CONNECTED,359,4405550156,"Went over pay, schedule and start date.","Outbound call to Gloria Carter, (440) 555-0156.
+Outcome: Reached. Duration: 5m 59s.
+Notes: Went over pay, schedule and start date.
+Next step: Update the applicant's stage to match the conversation.",2026-09-14T14:58:00.000Z,2026-09-14T15:03:59.000Z
+201,131,OUTBOUND,CONNECTED,688,3305550134,"Warm, clear communicator. Moving forward.","Outbound call to Yasmin Foster, (330) 555-0134.
+Outcome: Reached. Duration: 11m 28s.
+Notes: Warm, clear communicator. Moving forward.
+Next step: Update the applicant's stage to match the conversation.",2026-09-14T16:36:00.000Z,2026-09-14T16:47:28.000Z
+202,141,OUTBOUND,NO_ANSWER,33,3305550196,,"Outbound call to Marcus Hernandez, (330) 555-0196.
+Outcome: No answer. Duration: 33s.
+Next step: Try again at a different time of day.",2026-09-14T18:59:00.000Z,2026-09-14T18:59:33.000Z
+203,121,OUTBOUND,CALLBACK_REQUESTED,62,3305550154,"Driving, asked to be called tomorrow morning.","Outbound call to Hye-jin Hughes, (330) 555-0154.
+Outcome: Callback requested. Duration: 1m 02s.
+Notes: Driving, asked to be called tomorrow morning.
+Next step: Call back at the time requested.",2026-09-14T19:29:00.000Z,2026-09-14T19:30:02.000Z
+204,131,OUTBOUND,VOICEMAIL,30,3305550134,Left voicemail with callback number.,"Outbound call to Yasmin Foster, (330) 555-0134.
+Outcome: Left voicemail. Duration: 30s.
+Notes: Left voicemail with callback number.
+Next step: Try again tomorrow if there is no callback.",2026-09-15T14:47:00.000Z,2026-09-15T14:47:30.000Z
+205,131,OUTBOUND,CONNECTED,100,3305550134,Booked the in-person interview.,"Outbound call to Yasmin Foster, (330) 555-0134.
+Outcome: Reached. Duration: 1m 40s.
+Notes: Booked the in-person interview.
+Next step: Update the applicant's stage to match the conversation.",2026-09-15T17:55:00.000Z,2026-09-15T17:56:40.000Z

@@ -1,0 +1,118 @@
+id,applicant_id,body,pinned,created_at
+1,5,Prefers text over calls.,true,2026-06-23T13:16:00.000Z
+2,1,Outside the service area with no plans to relocate.,false,2026-06-23T19:19:00.000Z
+3,8,Resume shows three years of home care. Worth a call.,false,2026-06-29T16:54:00.000Z
+4,9,Short gaps between roles; ask about availability on the call.,false,2026-06-29T17:11:00.000Z
+5,13,Prefers text over calls.,true,2026-06-29T17:37:00.000Z
+6,12,No caregiving or personal care experience listed.,false,2026-06-29T17:44:00.000Z
+7,8,Wants 30+ hours a week. Can start in two weeks.,false,2026-06-29T19:10:59.000Z
+8,12,Only available weekends. Check before scheduling.,true,2026-06-29T19:30:00.000Z
+9,10,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-06-29T19:32:00.000Z
+10,5,No phone number on file and no reply to two emails.,false,2026-06-30T14:57:00.000Z
+11,3,Signed offer. TB test and paperwork scheduled.,false,2026-06-30T16:10:00.000Z
+12,7,In-person interview booked at the office.,false,2026-07-01T17:16:46.000Z
+13,13,Stopped responding after the phone screen.,false,2026-07-02T15:53:00.000Z
+14,9,Did not complete the background check paperwork.,false,2026-07-03T20:24:00.000Z
+15,7,Client's family met them and asked to move forward.,false,2026-07-06T16:06:00.000Z
+16,16,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-07-06T17:28:00.000Z
+17,15,Going back to school full time this semester.,false,2026-07-06T18:05:00.000Z
+18,14,No phone number on file and no reply to two emails.,false,2026-07-07T19:24:00.000Z
+19,7,Signed offer. TB test and paperwork scheduled.,false,2026-07-10T13:07:00.000Z
+20,20,Applied for an office role; this posting is in-home care.,false,2026-07-13T17:12:00.000Z
+21,19,Applied for an office role; this posting is in-home care.,false,2026-07-13T19:32:00.000Z
+22,18,Applied for an office role; this posting is in-home care.,false,2026-07-13T20:59:00.000Z
+23,23,Applied for an office role; this posting is in-home care.,false,2026-07-15T17:23:00.000Z
+24,22,Resume shows three years of home care. Worth a call.,false,2026-07-16T20:20:00.000Z
+25,30,Outside the service area with no plans to relocate.,false,2026-07-21T18:39:00.000Z
+26,27,Schedule no longer works with childcare.,false,2026-07-21T18:55:48.000Z
+27,31,STNA listed on the resume; verify on the phone screen.,false,2026-07-24T14:28:00.000Z
+28,33,Outside the service area with no plans to relocate.,false,2026-07-24T20:23:00.000Z
+29,35,Needs shifts that end by 3pm for school pickup.,true,2026-07-24T20:23:00.000Z
+30,35,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-07-27T15:13:00.000Z
+31,34,Available weekdays 7a to 3p. Has own car and a clean driving record.,false,2026-07-28T16:40:06.000Z
+32,31,Wants 30+ hours a week. Can start in two weeks.,false,2026-07-28T17:51:24.000Z
+33,29,No response after four call attempts.,false,2026-07-31T17:53:00.000Z
+34,26,Stopped responding after the phone screen.,false,2026-07-31T20:23:00.000Z
+35,31,Interview set; asked them to bring their certifications.,false,2026-07-31T21:01:31.000Z
+36,38,Needs shifts that end by 3pm for school pickup.,true,2026-08-03T14:42:00.000Z
+37,39,Outside the service area with no plans to relocate.,false,2026-08-03T15:37:00.000Z
+38,42,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-08-04T15:30:00.000Z
+39,45,Accepted a position closer to home.,false,2026-08-06T14:12:00.000Z
+40,47,No caregiving or personal care experience listed.,false,2026-08-06T14:48:00.000Z
+41,37,Going back to school full time this semester.,false,2026-08-07T13:54:01.000Z
+42,46,No caregiving or personal care experience listed.,false,2026-08-07T14:15:00.000Z
+43,49,Applied for an office role; this posting is in-home care.,false,2026-08-07T19:15:00.000Z
+44,31,Did not show for the scheduled interview.,false,2026-08-10T16:17:00.000Z
+45,43,Cannot cover any of the open shifts.,false,2026-08-10T16:26:08.000Z
+46,51,No caregiving or personal care experience listed.,false,2026-08-10T16:58:00.000Z
+47,54,STNA listed on the resume; verify on the phone screen.,false,2026-08-10T17:09:00.000Z
+48,52,Outside the service area with no plans to relocate.,false,2026-08-10T17:18:00.000Z
+49,53,Applied for an office role; this posting is in-home care.,false,2026-08-10T21:01:00.000Z
+50,48,In-person interview booked at the office.,false,2026-08-11T16:43:04.000Z
+51,44,Needs a pay rate above the range for this role.,false,2026-08-12T16:18:12.000Z
+52,55,Prefers text over calls.,true,2026-08-13T20:40:00.000Z
+53,57,Prefers text over calls.,true,2026-08-14T19:28:00.000Z
+54,56,Resume shows three years of home care. Worth a call.,false,2026-08-14T19:31:00.000Z
+55,48,Hired. Paired with a senior caregiver for the first two shifts.,false,2026-08-17T13:27:00.000Z
+56,61,Outside the service area with no plans to relocate.,false,2026-08-17T18:45:00.000Z
+57,62,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-08-17T20:36:00.000Z
+58,54,No response after four call attempts.,false,2026-08-18T16:10:00.000Z
+59,56,No phone number on file and no reply to two emails.,false,2026-08-18T17:27:00.000Z
+60,58,No phone number on file and no reply to two emails.,false,2026-08-19T16:44:00.000Z
+61,64,Outside the service area with no plans to relocate.,false,2026-08-19T16:57:00.000Z
+62,66,Accepted a position closer to home.,false,2026-08-20T16:17:00.000Z
+63,67,STNA listed on the resume; verify on the phone screen.,false,2026-08-20T20:33:00.000Z
+64,67,Cannot cover any of the open shifts.,false,2026-08-21T14:40:58.000Z
+65,68,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-08-24T13:31:00.000Z
+66,74,Prefers text over calls.,true,2026-08-24T16:28:00.000Z
+67,75,Needs shifts that end by 3pm for school pickup.,true,2026-08-24T17:34:00.000Z
+68,72,Resume shows three years of home care. Worth a call.,false,2026-08-24T17:38:00.000Z
+69,59,Client's family met them and asked to move forward.,false,2026-08-24T19:22:00.000Z
+70,69,Needs shifts that end by 3pm for school pickup.,true,2026-08-24T20:15:00.000Z
+71,68,Prefers text over calls.,true,2026-08-24T20:33:00.000Z
+72,70,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-08-25T14:16:00.000Z
+73,63,Wants 30+ hours a week. Can start in two weeks.,false,2026-08-25T17:45:43.000Z
+74,77,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-08-26T17:09:00.000Z
+75,72,Stopped responding after the phone screen.,false,2026-08-26T18:53:00.000Z
+76,78,Short gaps between roles; ask about availability on the call.,false,2026-08-26T20:04:00.000Z
+77,74,In-person interview booked at the office.,false,2026-08-26T20:16:34.000Z
+78,74,"Solid interview, but another candidate was a better fit for the overnight schedule.",false,2026-08-28T15:54:00.000Z
+79,82,Needs shifts that end by 3pm for school pickup.,true,2026-08-31T13:36:00.000Z
+80,81,STNA listed on the resume; verify on the phone screen.,false,2026-08-31T17:14:00.000Z
+81,87,Outside the service area with no plans to relocate.,false,2026-09-01T13:51:00.000Z
+82,84,"Bilingual English and Spanish, which helps with two current clients.",false,2026-09-01T14:31:54.000Z
+83,81,Wants 30+ hours a week. Can start in two weeks.,false,2026-09-01T16:30:29.000Z
+84,76,In-person interview booked at the office.,false,2026-09-02T14:48:28.000Z
+85,96,Applied for an office role; this posting is in-home care.,false,2026-09-04T14:30:00.000Z
+86,79,No phone number on file and no reply to two emails.,false,2026-09-04T16:11:00.000Z
+87,89,Accepted a position closer to home.,false,2026-09-04T16:37:37.000Z
+88,97,Only available weekends. Check before scheduling.,true,2026-09-04T16:38:00.000Z
+89,93,Going back to school full time this semester.,false,2026-09-04T16:52:00.000Z
+90,85,"Bilingual English and Spanish, which helps with two current clients.",false,2026-09-04T16:55:42.000Z
+91,97,Dementia care experience at a memory care unit.,false,2026-09-04T18:42:00.000Z
+92,76,Client's family met them and asked to move forward.,false,2026-09-07T14:13:00.000Z
+93,115,Worked with us in 2024 and is eligible for rehire.,true,2026-09-07T14:16:00.000Z
+94,115,Indicated they are under 18. Not eligible for in-home care roles.,false,2026-09-07T15:13:00.000Z
+95,57,Start date confirmed. Orientation packet sent.,false,2026-09-07T17:29:00.000Z
+96,98,STNA listed on the resume; verify on the phone screen.,false,2026-09-07T19:07:00.000Z
+97,108,STNA listed on the resume; verify on the phone screen.,false,2026-09-07T20:04:00.000Z
+98,117,Worked with us in 2024 and is eligible for rehire.,true,2026-09-07T20:09:00.000Z
+99,107,Short gaps between roles; ask about availability on the call.,false,2026-09-07T20:57:00.000Z
+100,117,Wants 30+ hours a week. Can start in two weeks.,false,2026-09-09T18:19:16.000Z
+101,131,Prefers text over calls.,true,2026-09-09T20:59:00.000Z
+102,132,Outside the service area with no plans to relocate.,false,2026-09-10T14:29:00.000Z
+103,134,Prefers text over calls.,true,2026-09-10T14:56:00.000Z
+104,109,No response after four call attempts.,false,2026-09-10T16:32:00.000Z
+105,133,No caregiving or personal care experience listed.,false,2026-09-10T20:15:00.000Z
+106,124,Wants 30+ hours a week. Can start in two weeks.,false,2026-09-10T20:59:06.000Z
+107,65,Start date confirmed. Orientation packet sent.,false,2026-09-11T15:55:00.000Z
+108,135,Outside the service area with no plans to relocate.,false,2026-09-11T17:25:00.000Z
+109,63,Signed offer. TB test and paperwork scheduled.,false,2026-09-11T18:44:00.000Z
+110,134,Outside the service area with no plans to relocate.,false,2026-09-11T18:50:00.000Z
+111,76,Signed offer. TB test and paperwork scheduled.,false,2026-09-11T20:41:00.000Z
+112,117,Great rapport in the interview. References came back positive.,false,2026-09-14T13:37:00.000Z
+113,83,Shadow shift with a senior caregiver went well.,false,2026-09-14T13:41:00.000Z
+114,131,Available weekdays 7a to 3p. Has own car and a clean driving record.,false,2026-09-14T16:55:28.000Z
+115,91,No phone number on file and no reply to two emails.,false,2026-09-14T18:49:00.000Z
+116,117,Signed offer. TB test and paperwork scheduled.,false,2026-09-15T15:05:00.000Z
+117,131,In-person interview booked at the office.,false,2026-09-15T18:02:40.000Z

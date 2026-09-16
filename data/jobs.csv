@@ -1,0 +1,7 @@
+id,code,title,location,description,employment_type,status,opened_at
+1,CARE-001,Home Health Caregiver,"Cleveland, OH","Visit clients in their homes to help with daily living, meals, medication reminders and companionship.",FULL_TIME,OPEN,2026-05-11T14:00:00.000Z
+2,CARE-002,Overnight Care Specialist,"Lakewood, OH","Overnight shifts supporting clients who need safety checks, repositioning and help at night.",PART_TIME,OPEN,2026-05-27T14:00:00.000Z
+3,CARE-003,Live-In Caregiver,"Shaker Heights, OH","Round-the-clock support for one client, with a private room and scheduled days off.",FULL_TIME,OPEN,2026-06-04T14:00:00.000Z
+4,CARE-004,Certified Nursing Assistant,"Parma, OH","State-tested nursing assistants for personal care, vital signs and mobility support under nurse supervision.",FULL_TIME,OPEN,2026-08-01T14:00:00.000Z
+5,CARE-005,Respite Care Aide,"Euclid, OH","Short stays that give family caregivers a break, from a few hours to a full weekend.",PART_TIME,PAUSED,2026-05-19T14:00:00.000Z
+6,CARE-006,Weekend Companion Caregiver,"Westlake, OH","Weekend companionship, light housekeeping and errands for clients who live independently.",PART_TIME,CLOSED,2026-04-09T14:00:00.000Z

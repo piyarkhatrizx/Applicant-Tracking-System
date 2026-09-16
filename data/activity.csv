@@ -1,0 +1,748 @@
+id,applicant_id,type,detail_json,actor,created_at
+1,1,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-21T13:10:00.000Z
+2,2,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-06-21T14:04:00.000Z
+3,3,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-06-21T21:04:00.000Z
+4,4,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-06-21T21:15:00.000Z
+5,3,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-06-22T13:26:00.000Z
+6,2,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-06-22T15:05:00.000Z
+7,4,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-06-22T17:53:00.000Z
+8,5,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-06-22T20:05:00.000Z
+9,3,CALL_LOGGED,"{""callLogId"":""1""}",Luis Ortega,2026-06-22T20:16:00.000Z
+10,5,NOTE_ADDED,"{""noteId"":""1""}",Dana Whitfield,2026-06-23T13:16:00.000Z
+11,6,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-23T15:09:00.000Z
+12,7,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-23T15:23:00.000Z
+13,3,CALL_LOGGED,"{""callLogId"":""2""}",Luis Ortega,2026-06-23T19:01:00.000Z
+14,1,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-06-23T19:16:00.000Z
+15,1,NOTE_ADDED,"{""noteId"":""2""}",Dana Whitfield,2026-06-23T19:19:00.000Z
+16,5,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-06-24T13:04:00.000Z
+17,3,CALL_LOGGED,"{""callLogId"":""3""}",Luis Ortega,2026-06-24T13:33:00.000Z
+18,3,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-06-24T13:53:08.000Z
+19,6,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-06-25T15:08:00.000Z
+20,6,CALL_LOGGED,"{""callLogId"":""4""}",Dana Whitfield,2026-06-25T19:10:00.000Z
+21,3,CALL_LOGGED,"{""callLogId"":""5""}",Luis Ortega,2026-06-25T20:03:00.000Z
+22,7,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-06-25T20:20:00.000Z
+23,6,CALL_LOGGED,"{""callLogId"":""6""}",Dana Whitfield,2026-06-26T15:18:00.000Z
+24,8,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-06-26T15:21:00.000Z
+25,3,CALL_LOGGED,"{""callLogId"":""7""}",Luis Ortega,2026-06-26T16:30:00.000Z
+26,3,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-06-26T16:36:57.000Z
+27,7,CALL_LOGGED,"{""callLogId"":""8""}",Luis Ortega,2026-06-26T18:58:00.000Z
+28,9,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-06-26T20:40:00.000Z
+29,10,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-27T12:19:00.000Z
+30,11,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-06-27T19:01:00.000Z
+31,12,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-28T11:53:00.000Z
+32,11,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-06-29T14:46:00.000Z
+33,3,CALL_LOGGED,"{""callLogId"":""9""}",Luis Ortega,2026-06-29T16:23:00.000Z
+34,3,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-06-29T16:38:05.000Z
+35,8,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-06-29T16:49:00.000Z
+36,8,NOTE_ADDED,"{""noteId"":""3""}",Luis Ortega,2026-06-29T16:54:00.000Z
+37,9,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-06-29T17:10:00.000Z
+38,9,NOTE_ADDED,"{""noteId"":""4""}",Luis Ortega,2026-06-29T17:11:00.000Z
+39,13,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-06-29T17:19:00.000Z
+40,13,NOTE_ADDED,"{""noteId"":""5""}",Luis Ortega,2026-06-29T17:37:00.000Z
+41,8,CALL_LOGGED,"{""callLogId"":""10""}",Luis Ortega,2026-06-29T17:38:00.000Z
+42,12,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-06-29T17:40:00.000Z
+43,12,NOTE_ADDED,"{""noteId"":""6""}",Luis Ortega,2026-06-29T17:44:00.000Z
+44,6,CALL_LOGGED,"{""callLogId"":""11""}",Dana Whitfield,2026-06-29T17:56:00.000Z
+45,8,CALL_LOGGED,"{""callLogId"":""12""}",Luis Ortega,2026-06-29T18:54:00.000Z
+46,8,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-06-29T19:06:59.000Z
+47,8,NOTE_ADDED,"{""noteId"":""7""}",Luis Ortega,2026-06-29T19:10:59.000Z
+48,12,NOTE_ADDED,"{""noteId"":""8""}",Luis Ortega,2026-06-29T19:30:00.000Z
+49,10,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-06-29T19:31:00.000Z
+50,10,NOTE_ADDED,"{""noteId"":""9""}",Luis Ortega,2026-06-29T19:32:00.000Z
+51,7,CALL_LOGGED,"{""callLogId"":""13""}",Luis Ortega,2026-06-29T20:35:00.000Z
+52,7,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-06-29T21:00:35.000Z
+53,6,CALL_LOGGED,"{""callLogId"":""14""}",Dana Whitfield,2026-06-30T13:10:00.000Z
+54,6,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Withdrawn"",""fromStatusId"":""2"",""toStatusId"":""8""}",Dana Whitfield,2026-06-30T13:19:11.000Z
+55,5,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Dana Whitfield,2026-06-30T14:55:00.000Z
+56,5,NOTE_ADDED,"{""noteId"":""10""}",Dana Whitfield,2026-06-30T14:57:00.000Z
+57,13,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-06-30T15:22:00.000Z
+58,3,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Luis Ortega,2026-06-30T16:07:00.000Z
+59,3,NOTE_ADDED,"{""noteId"":""11""}",Luis Ortega,2026-06-30T16:10:00.000Z
+60,13,CALL_LOGGED,"{""callLogId"":""15""}",Luis Ortega,2026-06-30T18:15:00.000Z
+61,9,CALL_LOGGED,"{""callLogId"":""16""}",Luis Ortega,2026-06-30T18:18:00.000Z
+62,13,CALL_LOGGED,"{""callLogId"":""17""}",Luis Ortega,2026-06-30T18:57:48.000Z
+63,13,CALL_LOGGED,"{""callLogId"":""18""}",Luis Ortega,2026-06-30T19:14:00.000Z
+64,13,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-06-30T19:30:23.000Z
+65,7,CALL_LOGGED,"{""callLogId"":""19""}",Luis Ortega,2026-06-30T19:39:00.000Z
+66,14,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-07-01T11:02:00.000Z
+67,8,CALL_LOGGED,"{""callLogId"":""20""}",Luis Ortega,2026-07-01T13:41:00.000Z
+68,8,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-07-01T13:48:07.000Z
+69,7,CALL_LOGGED,"{""callLogId"":""21""}",Luis Ortega,2026-07-01T17:10:00.000Z
+70,7,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-07-01T17:15:46.000Z
+71,7,NOTE_ADDED,"{""noteId"":""12""}",Luis Ortega,2026-07-01T17:16:46.000Z
+72,9,CALL_LOGGED,"{""callLogId"":""22""}",Luis Ortega,2026-07-01T19:50:00.000Z
+73,9,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-07-01T20:09:48.000Z
+74,14,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-02T14:37:00.000Z
+75,13,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Luis Ortega,2026-07-02T15:50:00.000Z
+76,13,NOTE_ADDED,"{""noteId"":""13""}",Luis Ortega,2026-07-02T15:53:00.000Z
+77,9,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Luis Ortega,2026-07-03T20:22:00.000Z
+78,9,NOTE_ADDED,"{""noteId"":""14""}",Luis Ortega,2026-07-03T20:24:00.000Z
+79,15,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-07-05T16:57:00.000Z
+80,8,CALL_LOGGED,"{""callLogId"":""23""}",Luis Ortega,2026-07-06T14:47:00.000Z
+81,16,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-06T15:19:00.000Z
+82,8,CALL_LOGGED,"{""callLogId"":""24""}",Luis Ortega,2026-07-06T15:29:31.000Z
+83,8,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-07-06T15:43:14.000Z
+84,7,NOTE_ADDED,"{""noteId"":""15""}",Luis Ortega,2026-07-06T16:06:00.000Z
+85,7,CALL_LOGGED,"{""callLogId"":""25""}",Luis Ortega,2026-07-06T16:43:00.000Z
+86,16,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-06T17:26:00.000Z
+87,16,NOTE_ADDED,"{""noteId"":""16""}",Dana Whitfield,2026-07-06T17:28:00.000Z
+88,15,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Dana Whitfield,2026-07-06T18:00:00.000Z
+89,15,NOTE_ADDED,"{""noteId"":""17""}",Dana Whitfield,2026-07-06T18:05:00.000Z
+90,7,CALL_LOGGED,"{""callLogId"":""26""}",Luis Ortega,2026-07-07T13:01:00.000Z
+91,7,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-07-07T13:12:22.000Z
+92,8,CALL_LOGGED,"{""callLogId"":""27""}",Luis Ortega,2026-07-07T17:46:00.000Z
+93,8,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Withdrawn"",""fromStatusId"":""5"",""toStatusId"":""8""}",Luis Ortega,2026-07-07T18:02:28.000Z
+94,14,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-07-07T19:21:00.000Z
+95,14,NOTE_ADDED,"{""noteId"":""18""}",Luis Ortega,2026-07-07T19:24:00.000Z
+96,11,ARCHIVED,{},Dana Whitfield,2026-07-09T13:08:00.000Z
+97,6,ARCHIVED,{},Dana Whitfield,2026-07-09T13:30:00.000Z
+98,7,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Luis Ortega,2026-07-10T13:05:00.000Z
+99,7,NOTE_ADDED,"{""noteId"":""19""}",Luis Ortega,2026-07-10T13:07:00.000Z
+100,17,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-10T20:55:00.000Z
+101,18,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-10T23:15:00.000Z
+102,19,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-11T17:14:00.000Z
+103,20,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-12T16:21:00.000Z
+104,15,ARCHIVED,{},Dana Whitfield,2026-07-13T14:05:00.000Z
+105,20,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-13T17:09:00.000Z
+106,20,NOTE_ADDED,"{""noteId"":""20""}",Dana Whitfield,2026-07-13T17:12:00.000Z
+107,3,ARCHIVED,{},Luis Ortega,2026-07-13T17:43:00.000Z
+108,17,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-13T17:56:00.000Z
+109,19,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-13T19:30:00.000Z
+110,19,NOTE_ADDED,"{""noteId"":""21""}",Dana Whitfield,2026-07-13T19:32:00.000Z
+111,18,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-07-13T20:58:00.000Z
+112,18,NOTE_ADDED,"{""noteId"":""22""}",Luis Ortega,2026-07-13T20:59:00.000Z
+113,21,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-14T15:46:00.000Z
+114,22,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-07-14T19:04:00.000Z
+115,23,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-14T20:02:00.000Z
+116,23,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-15T17:19:00.000Z
+117,23,NOTE_ADDED,"{""noteId"":""23""}",Dana Whitfield,2026-07-15T17:23:00.000Z
+118,24,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-07-16T18:41:00.000Z
+119,22,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-16T20:19:00.000Z
+120,22,NOTE_ADDED,"{""noteId"":""24""}",Luis Ortega,2026-07-16T20:20:00.000Z
+121,22,CALL_LOGGED,"{""callLogId"":""28""}",Luis Ortega,2026-07-17T14:20:00.000Z
+122,24,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-17T14:23:00.000Z
+123,25,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-17T16:57:00.000Z
+124,26,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-17T18:40:00.000Z
+125,21,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Luis Ortega,2026-07-17T20:24:00.000Z
+126,16,ARCHIVED,{},Dana Whitfield,2026-07-18T15:54:00.000Z
+127,27,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-07-18T17:32:00.000Z
+128,28,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-07-18T22:52:00.000Z
+129,29,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-19T19:19:00.000Z
+130,22,CALL_LOGGED,"{""callLogId"":""29""}",Luis Ortega,2026-07-20T14:16:00.000Z
+131,28,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-20T14:58:00.000Z
+132,25,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-07-20T15:08:00.000Z
+133,26,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-07-20T16:44:00.000Z
+134,19,ARCHIVED,{},Dana Whitfield,2026-07-20T17:03:00.000Z
+135,27,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-20T18:57:00.000Z
+136,17,ARCHIVED,{},Dana Whitfield,2026-07-20T20:14:00.000Z
+137,30,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-20T20:43:00.000Z
+138,29,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-21T15:00:00.000Z
+139,22,CALL_LOGGED,"{""callLogId"":""30""}",Luis Ortega,2026-07-21T17:17:00.000Z
+140,22,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-07-21T17:36:07.000Z
+141,30,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-21T18:34:00.000Z
+142,27,CALL_LOGGED,"{""callLogId"":""31""}",Luis Ortega,2026-07-21T18:37:00.000Z
+143,30,NOTE_ADDED,"{""noteId"":""25""}",Dana Whitfield,2026-07-21T18:39:00.000Z
+144,27,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Withdrawn"",""fromStatusId"":""2"",""toStatusId"":""8""}",Luis Ortega,2026-07-21T18:50:48.000Z
+145,27,NOTE_ADDED,"{""noteId"":""26""}",Luis Ortega,2026-07-21T18:55:48.000Z
+146,26,CALL_LOGGED,"{""callLogId"":""32""}",Dana Whitfield,2026-07-21T20:00:00.000Z
+147,31,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-22T12:46:00.000Z
+148,32,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-07-22T13:54:00.000Z
+149,20,ARCHIVED,{},Dana Whitfield,2026-07-22T16:32:00.000Z
+150,29,CALL_LOGGED,"{""callLogId"":""33""}",Luis Ortega,2026-07-22T16:40:00.000Z
+151,32,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-07-22T16:52:00.000Z
+152,26,CALL_LOGGED,"{""callLogId"":""34""}",Dana Whitfield,2026-07-22T17:36:00.000Z
+153,32,CALL_LOGGED,"{""callLogId"":""35""}",Dana Whitfield,2026-07-22T17:39:00.000Z
+154,32,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-07-22T17:55:04.000Z
+155,33,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-22T21:55:00.000Z
+156,29,CALL_LOGGED,"{""callLogId"":""36""}",Luis Ortega,2026-07-23T16:35:00.000Z
+157,32,CALL_LOGGED,"{""callLogId"":""37""}",Dana Whitfield,2026-07-23T17:23:00.000Z
+158,34,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-23T17:35:00.000Z
+159,32,CALL_LOGGED,"{""callLogId"":""38""}",Dana Whitfield,2026-07-23T18:47:00.000Z
+160,32,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-07-23T18:57:01.000Z
+161,35,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-24T11:28:00.000Z
+162,31,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-24T14:23:00.000Z
+163,31,NOTE_ADDED,"{""noteId"":""27""}",Luis Ortega,2026-07-24T14:28:00.000Z
+164,26,CALL_LOGGED,"{""callLogId"":""39""}",Dana Whitfield,2026-07-24T14:51:00.000Z
+165,22,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Luis Ortega,2026-07-24T15:23:00.000Z
+166,31,CALL_LOGGED,"{""callLogId"":""40""}",Luis Ortega,2026-07-24T16:34:00.000Z
+167,32,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Rejected"",""fromStatusId"":""4"",""toStatusId"":""7""}",Dana Whitfield,2026-07-24T17:17:00.000Z
+168,34,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-07-24T19:57:00.000Z
+169,33,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-07-24T20:18:00.000Z
+170,33,NOTE_ADDED,"{""noteId"":""28""}",Luis Ortega,2026-07-24T20:23:00.000Z
+171,35,NOTE_ADDED,"{""noteId"":""29""}",Dana Whitfield,2026-07-24T20:23:00.000Z
+172,23,ARCHIVED,{},Dana Whitfield,2026-07-26T17:23:00.000Z
+173,35,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-27T15:09:00.000Z
+174,35,NOTE_ADDED,"{""noteId"":""30""}",Dana Whitfield,2026-07-27T15:13:00.000Z
+175,29,CALL_LOGGED,"{""callLogId"":""41""}",Luis Ortega,2026-07-27T15:47:00.000Z
+176,28,ARCHIVED,{},Dana Whitfield,2026-07-27T16:16:00.000Z
+177,34,CALL_LOGGED,"{""callLogId"":""42""}",Luis Ortega,2026-07-27T17:09:00.000Z
+178,34,CALL_LOGGED,"{""callLogId"":""43""}",Luis Ortega,2026-07-27T17:27:00.000Z
+179,26,CALL_LOGGED,"{""callLogId"":""44""}",Dana Whitfield,2026-07-27T19:34:00.000Z
+180,26,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-07-27T19:54:46.000Z
+181,31,CALL_LOGGED,"{""callLogId"":""45""}",Luis Ortega,2026-07-27T20:24:00.000Z
+182,34,CALL_LOGGED,"{""callLogId"":""46""}",Luis Ortega,2026-07-28T15:21:00.000Z
+183,34,CALL_LOGGED,"{""callLogId"":""47""}",Luis Ortega,2026-07-28T16:21:00.000Z
+184,34,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-07-28T16:38:06.000Z
+185,34,NOTE_ADDED,"{""noteId"":""31""}",Luis Ortega,2026-07-28T16:40:06.000Z
+186,31,CALL_LOGGED,"{""callLogId"":""48""}",Luis Ortega,2026-07-28T17:29:00.000Z
+187,31,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-07-28T17:48:24.000Z
+188,31,NOTE_ADDED,"{""noteId"":""32""}",Luis Ortega,2026-07-28T17:51:24.000Z
+189,29,CALL_LOGGED,"{""callLogId"":""49""}",Luis Ortega,2026-07-28T20:31:00.000Z
+190,28,RESTORED,{},Dana Whitfield,2026-07-30T02:22:20.000Z
+191,34,CALL_LOGGED,"{""callLogId"":""50""}",Luis Ortega,2026-07-30T18:15:00.000Z
+192,34,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-07-30T18:19:58.000Z
+193,36,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-30T18:34:00.000Z
+194,31,CALL_LOGGED,"{""callLogId"":""51""}",Luis Ortega,2026-07-30T19:12:00.000Z
+195,37,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-30T21:21:00.000Z
+196,38,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-31T13:50:00.000Z
+197,36,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-07-31T15:10:00.000Z
+198,29,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-07-31T17:52:00.000Z
+199,29,NOTE_ADDED,"{""noteId"":""33""}",Luis Ortega,2026-07-31T17:53:00.000Z
+200,39,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-07-31T18:05:00.000Z
+201,23,RESTORED,{},Dana Whitfield,2026-07-31T19:05:39.000Z
+202,26,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Dana Whitfield,2026-07-31T20:20:00.000Z
+203,26,NOTE_ADDED,"{""noteId"":""34""}",Dana Whitfield,2026-07-31T20:23:00.000Z
+204,31,CALL_LOGGED,"{""callLogId"":""52""}",Luis Ortega,2026-07-31T20:49:00.000Z
+205,31,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-07-31T20:56:31.000Z
+206,31,NOTE_ADDED,"{""noteId"":""35""}",Luis Ortega,2026-07-31T21:01:31.000Z
+207,40,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-07-31T21:37:00.000Z
+208,25,ARCHIVED,{},Luis Ortega,2026-08-01T14:13:00.000Z
+209,41,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-03T00:38:00.000Z
+210,42,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-03T14:21:00.000Z
+211,38,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-03T14:40:00.000Z
+212,38,NOTE_ADDED,"{""noteId"":""36""}",Luis Ortega,2026-08-03T14:42:00.000Z
+213,40,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-03T15:00:00.000Z
+214,39,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-03T15:34:00.000Z
+215,39,NOTE_ADDED,"{""noteId"":""37""}",Dana Whitfield,2026-08-03T15:37:00.000Z
+216,34,CALL_LOGGED,"{""callLogId"":""53""}",Luis Ortega,2026-08-03T17:06:00.000Z
+217,34,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-08-03T17:19:59.000Z
+218,37,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-03T18:09:00.000Z
+219,42,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-04T15:28:00.000Z
+220,42,NOTE_ADDED,"{""noteId"":""38""}",Luis Ortega,2026-08-04T15:30:00.000Z
+221,37,CALL_LOGGED,"{""callLogId"":""54""}",Dana Whitfield,2026-08-04T17:21:00.000Z
+222,34,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Luis Ortega,2026-08-04T18:21:00.000Z
+223,41,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-04T20:14:00.000Z
+224,37,CALL_LOGGED,"{""callLogId"":""55""}",Dana Whitfield,2026-08-05T13:00:00.000Z
+225,43,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-05T15:41:00.000Z
+226,44,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-05T19:32:00.000Z
+227,45,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-05T22:07:00.000Z
+228,46,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-06T13:19:00.000Z
+229,47,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-06T14:08:00.000Z
+230,45,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Luis Ortega,2026-08-06T14:10:00.000Z
+231,45,NOTE_ADDED,"{""noteId"":""39""}",Luis Ortega,2026-08-06T14:12:00.000Z
+232,47,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-06T14:47:00.000Z
+233,47,NOTE_ADDED,"{""noteId"":""40""}",Dana Whitfield,2026-08-06T14:48:00.000Z
+234,37,CALL_LOGGED,"{""callLogId"":""56""}",Dana Whitfield,2026-08-06T15:58:00.000Z
+235,48,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-08-06T17:43:00.000Z
+236,22,ARCHIVED,{},Luis Ortega,2026-08-06T19:54:00.000Z
+237,49,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-06T23:10:00.000Z
+238,37,CALL_LOGGED,"{""callLogId"":""57""}",Dana Whitfield,2026-08-07T13:43:00.000Z
+239,37,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Withdrawn"",""fromStatusId"":""2"",""toStatusId"":""8""}",Dana Whitfield,2026-08-07T13:48:01.000Z
+240,37,NOTE_ADDED,"{""noteId"":""41""}",Dana Whitfield,2026-08-07T13:54:01.000Z
+241,46,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-07T14:10:00.000Z
+242,46,NOTE_ADDED,"{""noteId"":""42""}",Luis Ortega,2026-08-07T14:15:00.000Z
+243,48,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-07T14:52:00.000Z
+244,50,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-08-07T16:01:00.000Z
+245,44,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-07T18:57:00.000Z
+246,49,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-07T19:10:00.000Z
+247,49,NOTE_ADDED,"{""noteId"":""43""}",Dana Whitfield,2026-08-07T19:15:00.000Z
+248,48,CALL_LOGGED,"{""callLogId"":""58""}",Dana Whitfield,2026-08-07T20:28:00.000Z
+249,51,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-08T12:37:00.000Z
+250,52,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-08T22:29:00.000Z
+251,53,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-09T17:28:00.000Z
+252,26,ARCHIVED,{},Dana Whitfield,2026-08-09T18:10:00.000Z
+253,54,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-09T18:23:00.000Z
+254,43,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-10T15:50:00.000Z
+255,50,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-10T15:59:00.000Z
+256,31,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Rejected"",""fromStatusId"":""4"",""toStatusId"":""7""}",Luis Ortega,2026-08-10T16:14:00.000Z
+257,31,NOTE_ADDED,"{""noteId"":""44""}",Luis Ortega,2026-08-10T16:17:00.000Z
+258,43,CALL_LOGGED,"{""callLogId"":""59""}",Dana Whitfield,2026-08-10T16:18:00.000Z
+259,43,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Dana Whitfield,2026-08-10T16:24:08.000Z
+260,43,NOTE_ADDED,"{""noteId"":""45""}",Dana Whitfield,2026-08-10T16:26:08.000Z
+261,51,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-10T16:56:00.000Z
+262,51,NOTE_ADDED,"{""noteId"":""46""}",Luis Ortega,2026-08-10T16:58:00.000Z
+263,48,CALL_LOGGED,"{""callLogId"":""60""}",Dana Whitfield,2026-08-10T17:05:00.000Z
+264,54,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-10T17:06:00.000Z
+265,54,NOTE_ADDED,"{""noteId"":""47""}",Luis Ortega,2026-08-10T17:09:00.000Z
+266,52,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-10T17:14:00.000Z
+267,52,NOTE_ADDED,"{""noteId"":""48""}",Luis Ortega,2026-08-10T17:18:00.000Z
+268,48,CALL_LOGGED,"{""callLogId"":""61""}",Dana Whitfield,2026-08-10T17:23:26.000Z
+269,48,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-10T17:40:36.000Z
+270,44,CALL_LOGGED,"{""callLogId"":""62""}",Luis Ortega,2026-08-10T19:14:00.000Z
+271,53,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-10T20:55:00.000Z
+272,53,NOTE_ADDED,"{""noteId"":""49""}",Luis Ortega,2026-08-10T21:01:00.000Z
+273,48,CALL_LOGGED,"{""callLogId"":""63""}",Dana Whitfield,2026-08-11T16:27:00.000Z
+274,48,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-08-11T16:39:04.000Z
+275,48,NOTE_ADDED,"{""noteId"":""50""}",Dana Whitfield,2026-08-11T16:43:04.000Z
+276,44,CALL_LOGGED,"{""callLogId"":""64""}",Luis Ortega,2026-08-11T18:04:00.000Z
+277,38,ARCHIVED,{},Luis Ortega,2026-08-11T18:47:00.000Z
+278,54,CALL_LOGGED,"{""callLogId"":""65""}",Luis Ortega,2026-08-11T20:54:00.000Z
+279,44,CALL_LOGGED,"{""callLogId"":""66""}",Luis Ortega,2026-08-12T15:59:00.000Z
+280,44,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-08-12T16:12:12.000Z
+281,44,NOTE_ADDED,"{""noteId"":""51""}",Luis Ortega,2026-08-12T16:18:12.000Z
+282,55,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-12T19:56:00.000Z
+283,29,ARCHIVED,{},Luis Ortega,2026-08-13T15:26:00.000Z
+284,54,CALL_LOGGED,"{""callLogId"":""67""}",Luis Ortega,2026-08-13T16:51:00.000Z
+285,55,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-13T18:14:00.000Z
+286,55,NOTE_ADDED,"{""noteId"":""52""}",Luis Ortega,2026-08-13T20:40:00.000Z
+287,48,CALL_LOGGED,"{""callLogId"":""68""}",Dana Whitfield,2026-08-13T20:49:00.000Z
+288,48,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-08-13T21:04:32.000Z
+289,56,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-14T11:55:00.000Z
+290,57,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-08-14T16:45:00.000Z
+291,45,ARCHIVED,{},Luis Ortega,2026-08-14T17:06:00.000Z
+292,56,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-14T19:26:00.000Z
+293,57,NOTE_ADDED,"{""noteId"":""53""}",Luis Ortega,2026-08-14T19:28:00.000Z
+294,56,NOTE_ADDED,"{""noteId"":""54""}",Luis Ortega,2026-08-14T19:31:00.000Z
+295,54,CALL_LOGGED,"{""callLogId"":""69""}",Luis Ortega,2026-08-14T20:53:00.000Z
+296,58,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-14T22:56:00.000Z
+297,59,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-15T11:37:00.000Z
+298,60,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-08-15T13:30:00.000Z
+299,47,ARCHIVED,{},Dana Whitfield,2026-08-15T13:38:00.000Z
+300,61,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-15T19:08:00.000Z
+301,42,ARCHIVED,{},Luis Ortega,2026-08-16T18:12:00.000Z
+302,62,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-16T20:04:00.000Z
+303,48,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-08-17T13:24:00.000Z
+304,48,NOTE_ADDED,"{""noteId"":""55""}",Dana Whitfield,2026-08-17T13:27:00.000Z
+305,54,CALL_LOGGED,"{""callLogId"":""70""}",Luis Ortega,2026-08-17T14:31:00.000Z
+306,59,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-17T18:35:00.000Z
+307,61,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-17T18:43:00.000Z
+308,61,NOTE_ADDED,"{""noteId"":""56""}",Luis Ortega,2026-08-17T18:45:00.000Z
+309,57,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-17T20:09:00.000Z
+310,58,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-17T20:17:00.000Z
+311,60,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-17T20:17:00.000Z
+312,62,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-17T20:35:00.000Z
+313,62,NOTE_ADDED,"{""noteId"":""57""}",Luis Ortega,2026-08-17T20:36:00.000Z
+314,63,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-17T23:41:00.000Z
+315,54,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-08-18T16:04:00.000Z
+316,57,CALL_LOGGED,"{""callLogId"":""71""}",Luis Ortega,2026-08-18T16:07:00.000Z
+317,54,NOTE_ADDED,"{""noteId"":""58""}",Luis Ortega,2026-08-18T16:10:00.000Z
+318,56,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-08-18T17:26:00.000Z
+319,56,NOTE_ADDED,"{""noteId"":""59""}",Luis Ortega,2026-08-18T17:27:00.000Z
+320,59,CALL_LOGGED,"{""callLogId"":""72""}",Dana Whitfield,2026-08-18T18:07:00.000Z
+321,64,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-18T21:22:00.000Z
+322,65,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-18T23:17:00.000Z
+323,63,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-19T13:18:00.000Z
+324,57,CALL_LOGGED,"{""callLogId"":""73""}",Luis Ortega,2026-08-19T13:56:00.000Z
+325,57,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-08-19T14:06:07.000Z
+326,59,CALL_LOGGED,"{""callLogId"":""74""}",Dana Whitfield,2026-08-19T16:02:00.000Z
+327,43,ARCHIVED,{},Dana Whitfield,2026-08-19T16:18:00.000Z
+328,59,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-19T16:22:38.000Z
+329,66,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-19T16:42:00.000Z
+330,58,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Dana Whitfield,2026-08-19T16:43:00.000Z
+331,58,NOTE_ADDED,"{""noteId"":""60""}",Dana Whitfield,2026-08-19T16:44:00.000Z
+332,64,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-19T16:55:00.000Z
+333,64,NOTE_ADDED,"{""noteId"":""61""}",Dana Whitfield,2026-08-19T16:57:00.000Z
+334,37,ARCHIVED,{},Dana Whitfield,2026-08-20T13:50:00.000Z
+335,65,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-20T14:26:00.000Z
+336,67,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-20T14:29:00.000Z
+337,66,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Luis Ortega,2026-08-20T16:14:00.000Z
+338,66,NOTE_ADDED,"{""noteId"":""62""}",Luis Ortega,2026-08-20T16:17:00.000Z
+339,63,CALL_LOGGED,"{""callLogId"":""75""}",Dana Whitfield,2026-08-20T16:19:00.000Z
+340,52,ARCHIVED,{},Luis Ortega,2026-08-20T17:15:00.000Z
+341,67,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-20T20:31:00.000Z
+342,67,NOTE_ADDED,"{""noteId"":""63""}",Luis Ortega,2026-08-20T20:33:00.000Z
+343,59,CALL_LOGGED,"{""callLogId"":""76""}",Dana Whitfield,2026-08-21T13:10:00.000Z
+344,59,CALL_LOGGED,"{""callLogId"":""77""}",Dana Whitfield,2026-08-21T13:34:00.000Z
+345,63,CALL_LOGGED,"{""callLogId"":""78""}",Dana Whitfield,2026-08-21T13:40:00.000Z
+346,59,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-08-21T13:45:55.000Z
+347,67,CALL_LOGGED,"{""callLogId"":""79""}",Luis Ortega,2026-08-21T14:27:00.000Z
+348,67,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-08-21T14:37:58.000Z
+349,67,NOTE_ADDED,"{""noteId"":""64""}",Luis Ortega,2026-08-21T14:40:58.000Z
+350,65,CALL_LOGGED,"{""callLogId"":""80""}",Dana Whitfield,2026-08-21T14:43:00.000Z
+351,44,ARCHIVED,{},Luis Ortega,2026-08-21T15:15:00.000Z
+352,68,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-22T00:46:00.000Z
+353,69,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-08-22T14:43:00.000Z
+354,70,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-23T13:25:00.000Z
+355,71,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-08-23T15:54:00.000Z
+356,72,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-08-23T16:05:00.000Z
+357,73,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-23T20:00:00.000Z
+358,74,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-23T20:14:00.000Z
+359,69,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-24T13:06:00.000Z
+360,74,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-24T13:16:00.000Z
+361,68,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-24T13:26:00.000Z
+362,68,NOTE_ADDED,"{""noteId"":""65""}",Dana Whitfield,2026-08-24T13:31:00.000Z
+363,75,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-08-24T14:50:00.000Z
+364,37,RESTORED,{},Dana Whitfield,2026-08-24T15:16:11.000Z
+365,57,CALL_LOGGED,"{""callLogId"":""81""}",Luis Ortega,2026-08-24T15:31:00.000Z
+366,65,CALL_LOGGED,"{""callLogId"":""82""}",Dana Whitfield,2026-08-24T15:33:00.000Z
+367,74,CALL_LOGGED,"{""callLogId"":""83""}",Luis Ortega,2026-08-24T15:59:00.000Z
+368,74,NOTE_ADDED,"{""noteId"":""66""}",Luis Ortega,2026-08-24T16:28:00.000Z
+369,71,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-24T17:30:00.000Z
+370,72,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-24T17:32:00.000Z
+371,75,NOTE_ADDED,"{""noteId"":""67""}",Dana Whitfield,2026-08-24T17:34:00.000Z
+372,72,NOTE_ADDED,"{""noteId"":""68""}",Dana Whitfield,2026-08-24T17:38:00.000Z
+373,71,CALL_LOGGED,"{""callLogId"":""84""}",Dana Whitfield,2026-08-24T17:53:00.000Z
+374,72,CALL_LOGGED,"{""callLogId"":""85""}",Dana Whitfield,2026-08-24T18:07:00.000Z
+375,59,NOTE_ADDED,"{""noteId"":""69""}",Dana Whitfield,2026-08-24T19:22:00.000Z
+376,73,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-24T19:24:00.000Z
+377,48,ARCHIVED,{},Dana Whitfield,2026-08-24T19:30:00.000Z
+378,63,CALL_LOGGED,"{""callLogId"":""86""}",Dana Whitfield,2026-08-24T20:06:00.000Z
+379,59,CALL_LOGGED,"{""callLogId"":""87""}",Dana Whitfield,2026-08-24T20:07:00.000Z
+380,69,NOTE_ADDED,"{""noteId"":""70""}",Luis Ortega,2026-08-24T20:15:00.000Z
+381,59,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-08-24T20:24:53.000Z
+382,68,NOTE_ADDED,"{""noteId"":""71""}",Dana Whitfield,2026-08-24T20:33:00.000Z
+383,72,CALL_LOGGED,"{""callLogId"":""88""}",Dana Whitfield,2026-08-24T20:39:00.000Z
+384,76,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-24T21:24:00.000Z
+385,74,CALL_LOGGED,"{""callLogId"":""89""}",Luis Ortega,2026-08-25T13:34:00.000Z
+386,55,ARCHIVED,{},Luis Ortega,2026-08-25T13:46:00.000Z
+387,65,CALL_LOGGED,"{""callLogId"":""90""}",Dana Whitfield,2026-08-25T13:56:00.000Z
+388,70,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-08-25T14:14:00.000Z
+389,70,NOTE_ADDED,"{""noteId"":""72""}",Luis Ortega,2026-08-25T14:16:00.000Z
+390,72,CALL_LOGGED,"{""callLogId"":""91""}",Dana Whitfield,2026-08-25T15:16:00.000Z
+391,72,CALL_LOGGED,"{""callLogId"":""92""}",Dana Whitfield,2026-08-25T15:40:38.000Z
+392,72,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-25T16:07:49.000Z
+393,75,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Dana Whitfield,2026-08-25T16:44:00.000Z
+394,71,CALL_LOGGED,"{""callLogId"":""93""}",Dana Whitfield,2026-08-25T17:09:00.000Z
+395,63,CALL_LOGGED,"{""callLogId"":""94""}",Dana Whitfield,2026-08-25T17:28:00.000Z
+396,63,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-25T17:43:43.000Z
+397,63,NOTE_ADDED,"{""noteId"":""73""}",Dana Whitfield,2026-08-25T17:45:43.000Z
+398,77,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-25T18:44:00.000Z
+399,57,CALL_LOGGED,"{""callLogId"":""95""}",Luis Ortega,2026-08-25T18:59:00.000Z
+400,57,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-08-25T19:04:17.000Z
+401,74,CALL_LOGGED,"{""callLogId"":""96""}",Luis Ortega,2026-08-25T20:16:00.000Z
+402,74,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-08-25T20:43:33.000Z
+403,78,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-08-26T12:09:00.000Z
+404,54,ARCHIVED,{},Luis Ortega,2026-08-26T14:53:00.000Z
+405,76,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-26T15:00:00.000Z
+406,59,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-08-26T15:18:00.000Z
+407,76,CALL_LOGGED,"{""callLogId"":""97""}",Dana Whitfield,2026-08-26T16:15:00.000Z
+408,71,CALL_LOGGED,"{""callLogId"":""98""}",Dana Whitfield,2026-08-26T16:22:00.000Z
+409,71,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-26T16:52:06.000Z
+410,77,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-08-26T17:06:00.000Z
+411,77,NOTE_ADDED,"{""noteId"":""74""}",Dana Whitfield,2026-08-26T17:09:00.000Z
+412,72,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Dana Whitfield,2026-08-26T18:49:00.000Z
+413,72,NOTE_ADDED,"{""noteId"":""75""}",Dana Whitfield,2026-08-26T18:53:00.000Z
+414,65,CALL_LOGGED,"{""callLogId"":""99""}",Dana Whitfield,2026-08-26T19:29:00.000Z
+415,65,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-26T19:41:48.000Z
+416,78,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-26T19:59:00.000Z
+417,78,NOTE_ADDED,"{""noteId"":""76""}",Luis Ortega,2026-08-26T20:04:00.000Z
+418,74,CALL_LOGGED,"{""callLogId"":""100""}",Luis Ortega,2026-08-26T20:05:00.000Z
+419,74,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-08-26T20:13:34.000Z
+420,74,NOTE_ADDED,"{""noteId"":""77""}",Luis Ortega,2026-08-26T20:16:34.000Z
+421,78,CALL_LOGGED,"{""callLogId"":""101""}",Luis Ortega,2026-08-27T14:26:00.000Z
+422,79,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-27T17:05:00.000Z
+423,76,CALL_LOGGED,"{""callLogId"":""102""}",Dana Whitfield,2026-08-28T14:50:00.000Z
+424,80,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-28T14:56:00.000Z
+425,71,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Dana Whitfield,2026-08-28T15:28:00.000Z
+426,74,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Rejected"",""fromStatusId"":""4"",""toStatusId"":""7""}",Luis Ortega,2026-08-28T15:48:00.000Z
+427,74,NOTE_ADDED,"{""noteId"":""78""}",Luis Ortega,2026-08-28T15:54:00.000Z
+428,66,ARCHIVED,{},Luis Ortega,2026-08-28T18:59:00.000Z
+429,78,CALL_LOGGED,"{""callLogId"":""103""}",Luis Ortega,2026-08-28T20:56:00.000Z
+430,81,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-29T11:52:00.000Z
+431,82,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-29T13:59:00.000Z
+432,83,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-29T16:24:00.000Z
+433,84,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-30T12:48:00.000Z
+434,85,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-30T14:05:00.000Z
+435,86,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-08-30T16:26:00.000Z
+436,84,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-31T13:31:00.000Z
+437,82,NOTE_ADDED,"{""noteId"":""79""}",Dana Whitfield,2026-08-31T13:36:00.000Z
+438,79,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-31T13:39:00.000Z
+439,76,CALL_LOGGED,"{""callLogId"":""104""}",Dana Whitfield,2026-08-31T14:31:00.000Z
+440,82,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-31T14:34:00.000Z
+441,76,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-08-31T14:53:51.000Z
+442,78,CALL_LOGGED,"{""callLogId"":""105""}",Luis Ortega,2026-08-31T15:17:00.000Z
+443,80,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-31T15:41:00.000Z
+444,78,CALL_LOGGED,"{""callLogId"":""106""}",Luis Ortega,2026-08-31T16:12:29.000Z
+445,78,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-08-31T16:41:24.000Z
+446,81,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-08-31T17:08:00.000Z
+447,81,NOTE_ADDED,"{""noteId"":""80""}",Luis Ortega,2026-08-31T17:14:00.000Z
+448,83,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-08-31T17:17:00.000Z
+449,57,CALL_LOGGED,"{""callLogId"":""107""}",Luis Ortega,2026-08-31T17:26:00.000Z
+450,57,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-08-31T17:37:55.000Z
+451,87,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-08-31T18:11:00.000Z
+452,63,CALL_LOGGED,"{""callLogId"":""108""}",Dana Whitfield,2026-08-31T18:46:00.000Z
+453,63,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-08-31T18:56:25.000Z
+454,81,CALL_LOGGED,"{""callLogId"":""109""}",Luis Ortega,2026-08-31T19:08:00.000Z
+455,65,CALL_LOGGED,"{""callLogId"":""110""}",Dana Whitfield,2026-08-31T19:35:00.000Z
+456,65,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-08-31T19:44:57.000Z
+457,68,ARCHIVED,{},Dana Whitfield,2026-08-31T20:44:00.000Z
+458,84,CALL_LOGGED,"{""callLogId"":""111""}",Luis Ortega,2026-08-31T20:59:00.000Z
+459,88,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-01T11:22:00.000Z
+460,87,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-01T13:48:00.000Z
+461,87,NOTE_ADDED,"{""noteId"":""81""}",Luis Ortega,2026-09-01T13:51:00.000Z
+462,84,CALL_LOGGED,"{""callLogId"":""112""}",Luis Ortega,2026-09-01T14:13:00.000Z
+463,82,CALL_LOGGED,"{""callLogId"":""113""}",Dana Whitfield,2026-09-01T14:27:00.000Z
+464,84,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-09-01T14:28:54.000Z
+465,84,NOTE_ADDED,"{""noteId"":""82""}",Luis Ortega,2026-09-01T14:31:54.000Z
+466,75,ARCHIVED,{},Dana Whitfield,2026-09-01T15:22:00.000Z
+467,81,CALL_LOGGED,"{""callLogId"":""114""}",Luis Ortega,2026-09-01T15:38:00.000Z
+468,81,CALL_LOGGED,"{""callLogId"":""115""}",Luis Ortega,2026-09-01T16:16:00.000Z
+469,81,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-09-01T16:27:29.000Z
+470,81,NOTE_ADDED,"{""noteId"":""83""}",Luis Ortega,2026-09-01T16:30:29.000Z
+471,83,CALL_LOGGED,"{""callLogId"":""116""}",Dana Whitfield,2026-09-01T18:56:00.000Z
+472,86,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-01T18:58:00.000Z
+473,80,CALL_LOGGED,"{""callLogId"":""117""}",Luis Ortega,2026-09-01T19:11:00.000Z
+474,89,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-01T20:54:00.000Z
+475,59,ARCHIVED,{},Dana Whitfield,2026-09-02T14:19:00.000Z
+476,76,CALL_LOGGED,"{""callLogId"":""118""}",Dana Whitfield,2026-09-02T14:38:00.000Z
+477,76,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-09-02T14:43:28.000Z
+478,76,NOTE_ADDED,"{""noteId"":""84""}",Dana Whitfield,2026-09-02T14:48:28.000Z
+479,78,CALL_LOGGED,"{""callLogId"":""119""}",Luis Ortega,2026-09-02T15:38:00.000Z
+480,78,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-02T15:43:54.000Z
+481,82,CALL_LOGGED,"{""callLogId"":""120""}",Dana Whitfield,2026-09-02T15:49:00.000Z
+482,69,ARCHIVED,{},Luis Ortega,2026-09-02T17:05:00.000Z
+483,90,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-02T17:29:00.000Z
+484,85,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-02T17:52:00.000Z
+485,91,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-02T18:05:00.000Z
+486,89,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-02T18:31:00.000Z
+487,83,CALL_LOGGED,"{""callLogId"":""121""}",Dana Whitfield,2026-09-02T20:14:00.000Z
+488,92,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-02T20:20:00.000Z
+489,83,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-02T20:32:12.000Z
+490,93,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-02T21:12:00.000Z
+491,93,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-02T21:27:00.000Z
+492,89,CALL_LOGGED,"{""callLogId"":""122""}",Dana Whitfield,2026-09-03T13:06:00.000Z
+493,81,CALL_LOGGED,"{""callLogId"":""123""}",Luis Ortega,2026-09-03T13:27:00.000Z
+494,81,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-03T13:35:40.000Z
+495,82,CALL_LOGGED,"{""callLogId"":""124""}",Dana Whitfield,2026-09-03T13:55:00.000Z
+496,82,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-03T14:10:50.000Z
+497,94,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-03T14:25:00.000Z
+498,85,CALL_LOGGED,"{""callLogId"":""125""}",Dana Whitfield,2026-09-03T14:38:00.000Z
+499,95,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-03T15:24:00.000Z
+500,96,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-03T18:32:00.000Z
+501,80,CALL_LOGGED,"{""callLogId"":""126""}",Luis Ortega,2026-09-03T18:41:00.000Z
+502,89,CALL_LOGGED,"{""callLogId"":""127""}",Dana Whitfield,2026-09-03T19:15:00.000Z
+503,88,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-03T19:29:00.000Z
+504,90,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-03T20:20:00.000Z
+505,97,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-03T20:38:00.000Z
+506,98,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-03T22:00:00.000Z
+507,99,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-04T00:40:00.000Z
+508,100,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-04T14:23:00.000Z
+509,96,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-04T14:24:00.000Z
+510,96,NOTE_ADDED,"{""noteId"":""85""}",Dana Whitfield,2026-09-04T14:30:00.000Z
+511,101,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-04T14:34:00.000Z
+512,102,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-04T15:14:00.000Z
+513,103,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-04T15:27:00.000Z
+514,79,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-09-04T16:07:00.000Z
+515,79,NOTE_ADDED,"{""noteId"":""86""}",Luis Ortega,2026-09-04T16:11:00.000Z
+516,89,CALL_LOGGED,"{""callLogId"":""128""}",Dana Whitfield,2026-09-04T16:18:00.000Z
+517,78,CALL_LOGGED,"{""callLogId"":""129""}",Luis Ortega,2026-09-04T16:27:00.000Z
+518,89,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Withdrawn"",""fromStatusId"":""2"",""toStatusId"":""8""}",Dana Whitfield,2026-09-04T16:33:37.000Z
+519,85,CALL_LOGGED,"{""callLogId"":""130""}",Dana Whitfield,2026-09-04T16:35:00.000Z
+520,89,NOTE_ADDED,"{""noteId"":""87""}",Dana Whitfield,2026-09-04T16:37:37.000Z
+521,97,NOTE_ADDED,"{""noteId"":""88""}",Luis Ortega,2026-09-04T16:38:00.000Z
+522,93,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Withdrawn"",""fromStatusId"":""2"",""toStatusId"":""8""}",Dana Whitfield,2026-09-04T16:48:00.000Z
+523,85,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-04T16:49:42.000Z
+524,93,NOTE_ADDED,"{""noteId"":""89""}",Dana Whitfield,2026-09-04T16:52:00.000Z
+525,85,NOTE_ADDED,"{""noteId"":""90""}",Dana Whitfield,2026-09-04T16:55:42.000Z
+526,78,CALL_LOGGED,"{""callLogId"":""131""}",Luis Ortega,2026-09-04T17:20:00.000Z
+527,78,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-09-04T17:29:37.000Z
+528,99,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-04T18:35:00.000Z
+529,97,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-04T18:39:00.000Z
+530,97,NOTE_ADDED,"{""noteId"":""91""}",Luis Ortega,2026-09-04T18:42:00.000Z
+531,99,CALL_LOGGED,"{""callLogId"":""132""}",Dana Whitfield,2026-09-04T18:55:00.000Z
+532,88,CALL_LOGGED,"{""callLogId"":""133""}",Dana Whitfield,2026-09-04T19:21:00.000Z
+533,104,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-04T19:46:00.000Z
+534,105,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-04T21:03:00.000Z
+535,106,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-04T23:15:00.000Z
+536,107,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-05T11:00:00.000Z
+537,108,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-05T15:13:00.000Z
+538,109,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-05T16:17:00.000Z
+539,110,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-05T20:59:00.000Z
+540,111,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-05T22:00:00.000Z
+541,112,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-06T12:05:00.000Z
+542,113,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-06T17:43:00.000Z
+543,114,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-06T21:06:00.000Z
+544,115,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-06T22:03:00.000Z
+545,116,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-06T23:17:00.000Z
+546,117,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-06T23:59:00.000Z
+547,118,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-07T12:18:00.000Z
+548,82,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Rejected"",""fromStatusId"":""3"",""toStatusId"":""7""}",Dana Whitfield,2026-09-07T13:36:00.000Z
+549,109,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T13:45:00.000Z
+550,102,STATUS_CHANGED,"{""from"":""New"",""to"":""Withdrawn"",""fromStatusId"":""1"",""toStatusId"":""8""}",Luis Ortega,2026-09-07T13:58:00.000Z
+551,80,CALL_LOGGED,"{""callLogId"":""134""}",Luis Ortega,2026-09-07T14:01:00.000Z
+552,95,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T14:04:00.000Z
+553,106,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T14:05:00.000Z
+554,110,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T14:10:00.000Z
+555,76,NOTE_ADDED,"{""noteId"":""92""}",Dana Whitfield,2026-09-07T14:13:00.000Z
+556,115,NOTE_ADDED,"{""noteId"":""93""}",Dana Whitfield,2026-09-07T14:16:00.000Z
+557,72,ARCHIVED,{},Dana Whitfield,2026-09-07T14:35:00.000Z
+558,76,CALL_LOGGED,"{""callLogId"":""135""}",Dana Whitfield,2026-09-07T14:41:00.000Z
+559,106,CALL_LOGGED,"{""callLogId"":""136""}",Luis Ortega,2026-09-07T14:41:00.000Z
+560,119,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-07T14:48:00.000Z
+561,99,CALL_LOGGED,"{""callLogId"":""137""}",Dana Whitfield,2026-09-07T14:50:00.000Z
+562,83,CALL_LOGGED,"{""callLogId"":""138""}",Dana Whitfield,2026-09-07T14:55:00.000Z
+563,76,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-09-07T14:57:20.000Z
+564,99,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Dana Whitfield,2026-09-07T15:02:16.000Z
+565,115,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-07T15:11:00.000Z
+566,117,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T15:11:00.000Z
+567,115,NOTE_ADDED,"{""noteId"":""94""}",Dana Whitfield,2026-09-07T15:13:00.000Z
+568,92,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T15:53:00.000Z
+569,120,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-07T16:16:00.000Z
+570,104,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T16:31:00.000Z
+571,88,CALL_LOGGED,"{""callLogId"":""139""}",Dana Whitfield,2026-09-07T17:06:00.000Z
+572,94,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T17:11:00.000Z
+573,88,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Dana Whitfield,2026-09-07T17:19:42.000Z
+574,111,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T17:21:00.000Z
+575,117,CALL_LOGGED,"{""callLogId"":""140""}",Dana Whitfield,2026-09-07T17:21:00.000Z
+576,57,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Luis Ortega,2026-09-07T17:23:00.000Z
+577,57,NOTE_ADDED,"{""noteId"":""95""}",Luis Ortega,2026-09-07T17:29:00.000Z
+578,84,CALL_LOGGED,"{""callLogId"":""141""}",Luis Ortega,2026-09-07T17:47:00.000Z
+579,114,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T17:49:00.000Z
+580,97,CALL_LOGGED,"{""callLogId"":""142""}",Luis Ortega,2026-09-07T17:50:00.000Z
+581,84,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-07T17:56:49.000Z
+582,109,CALL_LOGGED,"{""callLogId"":""143""}",Luis Ortega,2026-09-07T18:46:00.000Z
+583,98,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T19:03:00.000Z
+584,98,NOTE_ADDED,"{""noteId"":""96""}",Dana Whitfield,2026-09-07T19:07:00.000Z
+585,77,ARCHIVED,{},Dana Whitfield,2026-09-07T19:11:00.000Z
+586,91,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T19:19:00.000Z
+587,113,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-07T19:29:00.000Z
+588,103,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T19:34:00.000Z
+589,98,CALL_LOGGED,"{""callLogId"":""144""}",Dana Whitfield,2026-09-07T19:38:00.000Z
+590,108,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T20:01:00.000Z
+591,108,NOTE_ADDED,"{""noteId"":""97""}",Dana Whitfield,2026-09-07T20:04:00.000Z
+592,117,NOTE_ADDED,"{""noteId"":""98""}",Dana Whitfield,2026-09-07T20:09:00.000Z
+593,100,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T20:13:00.000Z
+594,105,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-07T20:18:00.000Z
+595,65,CALL_LOGGED,"{""callLogId"":""145""}",Dana Whitfield,2026-09-07T20:19:00.000Z
+596,101,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T20:20:00.000Z
+597,65,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-09-07T20:34:47.000Z
+598,107,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-07T20:52:00.000Z
+599,81,CALL_LOGGED,"{""callLogId"":""146""}",Luis Ortega,2026-09-07T20:54:00.000Z
+600,107,NOTE_ADDED,"{""noteId"":""99""}",Luis Ortega,2026-09-07T20:57:00.000Z
+601,81,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-09-07T21:05:59.000Z
+602,100,CALL_LOGGED,"{""callLogId"":""147""}",Luis Ortega,2026-09-07T21:06:00.000Z
+603,121,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T00:59:00.000Z
+604,122,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T05:32:07.000Z
+605,123,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-08T08:32:08.000Z
+606,124,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-08T12:44:00.000Z
+607,125,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T12:44:44.000Z
+608,83,CALL_LOGGED,"{""callLogId"":""148""}",Dana Whitfield,2026-09-08T13:25:00.000Z
+609,83,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-09-08T13:32:19.000Z
+610,100,CALL_LOGGED,"{""callLogId"":""149""}",Luis Ortega,2026-09-08T13:35:00.000Z
+611,85,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Withdrawn"",""fromStatusId"":""3"",""toStatusId"":""8""}",Dana Whitfield,2026-09-08T13:46:00.000Z
+612,109,CALL_LOGGED,"{""callLogId"":""150""}",Luis Ortega,2026-09-08T14:33:00.000Z
+613,126,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T14:41:09.000Z
+614,110,CALL_LOGGED,"{""callLogId"":""151""}",Dana Whitfield,2026-09-08T15:26:00.000Z
+615,127,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T16:06:00.000Z
+616,63,CALL_LOGGED,"{""callLogId"":""152""}",Dana Whitfield,2026-09-08T16:13:00.000Z
+617,117,CALL_LOGGED,"{""callLogId"":""153""}",Dana Whitfield,2026-09-08T16:18:00.000Z
+618,63,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-09-08T16:25:35.000Z
+619,118,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-08T16:27:00.000Z
+620,107,CALL_LOGGED,"{""callLogId"":""154""}",Luis Ortega,2026-09-08T16:34:00.000Z
+621,119,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-08T17:01:00.000Z
+622,103,CALL_LOGGED,"{""callLogId"":""155""}",Luis Ortega,2026-09-08T17:08:00.000Z
+623,114,CALL_LOGGED,"{""callLogId"":""156""}",Dana Whitfield,2026-09-08T17:09:00.000Z
+624,120,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-08T17:57:00.000Z
+625,111,CALL_LOGGED,"{""callLogId"":""157""}",Dana Whitfield,2026-09-08T18:21:00.000Z
+626,105,CALL_LOGGED,"{""callLogId"":""158""}",Dana Whitfield,2026-09-08T18:43:00.000Z
+627,92,CALL_LOGGED,"{""callLogId"":""159""}",Luis Ortega,2026-09-08T18:47:00.000Z
+628,95,CALL_LOGGED,"{""callLogId"":""160""}",Dana Whitfield,2026-09-08T18:49:00.000Z
+629,106,CALL_LOGGED,"{""callLogId"":""161""}",Luis Ortega,2026-09-08T18:49:00.000Z
+630,128,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-08T18:59:00.000Z
+631,124,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-08T19:00:00.000Z
+632,124,CALL_LOGGED,"{""callLogId"":""162""}",Luis Ortega,2026-09-08T19:13:00.000Z
+633,95,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-08T19:14:35.000Z
+634,119,CALL_LOGGED,"{""callLogId"":""163""}",Luis Ortega,2026-09-08T19:21:00.000Z
+635,119,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-09-08T19:46:38.000Z
+636,104,CALL_LOGGED,"{""callLogId"":""164""}",Luis Ortega,2026-09-08T19:58:00.000Z
+637,112,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-08T20:07:00.000Z
+638,129,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-08T20:31:00.000Z
+639,108,CALL_LOGGED,"{""callLogId"":""165""}",Dana Whitfield,2026-09-08T20:46:00.000Z
+640,109,CALL_LOGGED,"{""callLogId"":""166""}",Luis Ortega,2026-09-08T20:54:00.000Z
+641,130,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-09T05:11:01.000Z
+642,129,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-09T13:09:00.000Z
+643,103,CALL_LOGGED,"{""callLogId"":""167""}",Luis Ortega,2026-09-09T13:23:00.000Z
+644,110,CALL_LOGGED,"{""callLogId"":""168""}",Dana Whitfield,2026-09-09T13:23:00.000Z
+645,120,CALL_LOGGED,"{""callLogId"":""169""}",Dana Whitfield,2026-09-09T14:07:00.000Z
+646,120,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-09T14:20:54.000Z
+647,118,CALL_LOGGED,"{""callLogId"":""170""}",Dana Whitfield,2026-09-09T14:23:00.000Z
+648,124,CALL_LOGGED,"{""callLogId"":""171""}",Luis Ortega,2026-09-09T15:11:00.000Z
+649,109,CALL_LOGGED,"{""callLogId"":""172""}",Luis Ortega,2026-09-09T16:49:00.000Z
+650,110,CALL_LOGGED,"{""callLogId"":""173""}",Dana Whitfield,2026-09-09T16:54:00.000Z
+651,116,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-09T17:09:00.000Z
+652,117,CALL_LOGGED,"{""callLogId"":""174""}",Dana Whitfield,2026-09-09T17:32:00.000Z
+653,112,CALL_LOGGED,"{""callLogId"":""175""}",Dana Whitfield,2026-09-09T17:36:00.000Z
+654,127,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-09T17:36:00.000Z
+655,106,CALL_LOGGED,"{""callLogId"":""176""}",Luis Ortega,2026-09-09T17:38:00.000Z
+656,117,CALL_LOGGED,"{""callLogId"":""177""}",Dana Whitfield,2026-09-09T18:03:29.000Z
+657,117,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-09T18:15:16.000Z
+658,117,NOTE_ADDED,"{""noteId"":""100""}",Dana Whitfield,2026-09-09T18:19:16.000Z
+659,105,CALL_LOGGED,"{""callLogId"":""178""}",Dana Whitfield,2026-09-09T19:48:00.000Z
+660,131,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-09T20:33:00.000Z
+661,108,CALL_LOGGED,"{""callLogId"":""179""}",Dana Whitfield,2026-09-09T20:53:00.000Z
+662,131,NOTE_ADDED,"{""noteId"":""101""}",Luis Ortega,2026-09-09T20:59:00.000Z
+663,132,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-09T21:23:00.000Z
+664,133,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-10T11:37:00.000Z
+665,134,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-10T11:45:00.000Z
+666,119,CALL_LOGGED,"{""callLogId"":""180""}",Luis Ortega,2026-09-10T14:23:00.000Z
+667,132,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Dana Whitfield,2026-09-10T14:26:00.000Z
+668,132,NOTE_ADDED,"{""noteId"":""102""}",Dana Whitfield,2026-09-10T14:29:00.000Z
+669,119,CALL_LOGGED,"{""callLogId"":""181""}",Luis Ortega,2026-09-10T14:39:44.000Z
+670,117,CALL_LOGGED,"{""callLogId"":""182""}",Dana Whitfield,2026-09-10T14:40:00.000Z
+671,119,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-10T14:48:17.000Z
+672,117,CALL_LOGGED,"{""callLogId"":""183""}",Dana Whitfield,2026-09-10T14:52:00.000Z
+673,134,NOTE_ADDED,"{""noteId"":""103""}",Luis Ortega,2026-09-10T14:56:00.000Z
+674,117,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Dana Whitfield,2026-09-10T14:57:04.000Z
+675,109,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-09-10T16:30:00.000Z
+676,109,NOTE_ADDED,"{""noteId"":""104""}",Luis Ortega,2026-09-10T16:32:00.000Z
+677,118,CALL_LOGGED,"{""callLogId"":""184""}",Dana Whitfield,2026-09-10T16:40:00.000Z
+678,128,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Dana Whitfield,2026-09-10T16:42:00.000Z
+679,124,CALL_LOGGED,"{""callLogId"":""185""}",Luis Ortega,2026-09-10T16:59:00.000Z
+680,131,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-10T17:11:00.000Z
+681,131,CALL_LOGGED,"{""callLogId"":""186""}",Luis Ortega,2026-09-10T17:55:00.000Z
+682,121,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-10T19:07:00.000Z
+683,116,CALL_LOGGED,"{""callLogId"":""187""}",Dana Whitfield,2026-09-10T19:22:00.000Z
+684,112,CALL_LOGGED,"{""callLogId"":""188""}",Dana Whitfield,2026-09-10T19:28:00.000Z
+685,133,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-10T20:09:00.000Z
+686,133,NOTE_ADDED,"{""noteId"":""105""}",Luis Ortega,2026-09-10T20:15:00.000Z
+687,124,CALL_LOGGED,"{""callLogId"":""189""}",Luis Ortega,2026-09-10T20:39:00.000Z
+688,124,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-09-10T20:58:06.000Z
+689,124,NOTE_ADDED,"{""noteId"":""106""}",Luis Ortega,2026-09-10T20:59:06.000Z
+690,135,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-10T22:03:00.000Z
+691,136,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-11T06:18:35.000Z
+692,116,CALL_LOGGED,"{""callLogId"":""190""}",Dana Whitfield,2026-09-11T13:27:00.000Z
+693,116,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Dana Whitfield,2026-09-11T13:42:57.000Z
+694,121,CALL_LOGGED,"{""callLogId"":""191""}",Luis Ortega,2026-09-11T15:48:00.000Z
+695,65,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-09-11T15:50:00.000Z
+696,65,NOTE_ADDED,"{""noteId"":""107""}",Dana Whitfield,2026-09-11T15:55:00.000Z
+697,137,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-11T17:20:09.000Z
+698,135,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-11T17:24:00.000Z
+699,135,NOTE_ADDED,"{""noteId"":""108""}",Luis Ortega,2026-09-11T17:25:00.000Z
+700,112,CALL_LOGGED,"{""callLogId"":""192""}",Dana Whitfield,2026-09-11T17:26:00.000Z
+701,124,CALL_LOGGED,"{""callLogId"":""193""}",Luis Ortega,2026-09-11T17:29:00.000Z
+702,131,CALL_LOGGED,"{""callLogId"":""194""}",Luis Ortega,2026-09-11T17:38:00.000Z
+703,124,CALL_LOGGED,"{""callLogId"":""195""}",Luis Ortega,2026-09-11T17:39:28.000Z
+704,124,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-11T17:50:51.000Z
+705,63,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-09-11T18:39:00.000Z
+706,63,NOTE_ADDED,"{""noteId"":""109""}",Dana Whitfield,2026-09-11T18:44:00.000Z
+707,134,STATUS_CHANGED,"{""from"":""New"",""to"":""Rejected"",""fromStatusId"":""1"",""toStatusId"":""7""}",Luis Ortega,2026-09-11T18:44:00.000Z
+708,134,NOTE_ADDED,"{""noteId"":""110""}",Luis Ortega,2026-09-11T18:50:00.000Z
+709,128,CALL_LOGGED,"{""callLogId"":""196""}",Dana Whitfield,2026-09-11T19:22:00.000Z
+710,119,CALL_LOGGED,"{""callLogId"":""197""}",Luis Ortega,2026-09-11T19:41:00.000Z
+711,119,CALL_LOGGED,"{""callLogId"":""198""}",Luis Ortega,2026-09-11T20:28:19.000Z
+712,76,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-09-11T20:38:00.000Z
+713,138,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-11T20:39:36.000Z
+714,76,NOTE_ADDED,"{""noteId"":""111""}",Dana Whitfield,2026-09-11T20:41:00.000Z
+715,119,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Luis Ortega,2026-09-11T20:44:44.000Z
+716,139,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-12T06:42:01.000Z
+717,140,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-12T14:12:30.000Z
+718,141,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-13T12:33:00.000Z
+719,142,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-14T13:35:55.000Z
+720,117,NOTE_ADDED,"{""noteId"":""112""}",Dana Whitfield,2026-09-14T13:37:00.000Z
+721,83,NOTE_ADDED,"{""noteId"":""113""}",Dana Whitfield,2026-09-14T13:41:00.000Z
+722,117,CALL_LOGGED,"{""callLogId"":""199""}",Dana Whitfield,2026-09-14T14:20:00.000Z
+723,117,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-09-14T14:36:32.000Z
+724,83,CALL_LOGGED,"{""callLogId"":""200""}",Dana Whitfield,2026-09-14T14:58:00.000Z
+725,83,STATUS_CHANGED,"{""from"":""Interview"",""to"":""Offer"",""fromStatusId"":""4"",""toStatusId"":""5""}",Dana Whitfield,2026-09-14T15:06:59.000Z
+726,131,CALL_LOGGED,"{""callLogId"":""201""}",Luis Ortega,2026-09-14T16:36:00.000Z
+727,131,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Phone screen"",""fromStatusId"":""2"",""toStatusId"":""3""}",Luis Ortega,2026-09-14T16:54:28.000Z
+728,131,NOTE_ADDED,"{""noteId"":""114""}",Luis Ortega,2026-09-14T16:55:28.000Z
+729,141,STATUS_CHANGED,"{""from"":""New"",""to"":""Screening"",""fromStatusId"":""1"",""toStatusId"":""2""}",Luis Ortega,2026-09-14T18:12:00.000Z
+730,91,STATUS_CHANGED,"{""from"":""Screening"",""to"":""Rejected"",""fromStatusId"":""2"",""toStatusId"":""7""}",Luis Ortega,2026-09-14T18:48:00.000Z
+731,91,NOTE_ADDED,"{""noteId"":""115""}",Luis Ortega,2026-09-14T18:49:00.000Z
+732,141,CALL_LOGGED,"{""callLogId"":""202""}",Luis Ortega,2026-09-14T18:59:00.000Z
+733,121,CALL_LOGGED,"{""callLogId"":""203""}",Luis Ortega,2026-09-14T19:29:00.000Z
+734,143,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-14T21:14:34.000Z
+735,144,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-15T01:12:12.000Z
+736,131,CALL_LOGGED,"{""callLogId"":""204""}",Luis Ortega,2026-09-15T14:47:00.000Z
+737,117,STATUS_CHANGED,"{""from"":""Offer"",""to"":""Hired"",""fromStatusId"":""5"",""toStatusId"":""6""}",Dana Whitfield,2026-09-15T15:02:00.000Z
+738,117,NOTE_ADDED,"{""noteId"":""116""}",Dana Whitfield,2026-09-15T15:05:00.000Z
+739,131,CALL_LOGGED,"{""callLogId"":""205""}",Luis Ortega,2026-09-15T17:55:00.000Z
+740,131,STATUS_CHANGED,"{""from"":""Phone screen"",""to"":""Interview"",""fromStatusId"":""3"",""toStatusId"":""4""}",Luis Ortega,2026-09-15T18:01:40.000Z
+741,131,NOTE_ADDED,"{""noteId"":""117""}",Luis Ortega,2026-09-15T18:02:40.000Z
+742,145,APPLICATION_CREATED,"{""source"":""APPLY_FORM""}",,2026-09-15T20:05:16.000Z
+743,146,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-15T21:33:53.000Z
+744,147,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-15T22:15:45.000Z
+745,148,APPLICATION_CREATED,"{""source"":""MANUAL""}",,2026-09-15T22:57:19.000Z
+746,149,APPLICATION_CREATED,"{""source"":""REFERRAL""}",,2026-09-16T04:26:51.000Z
+747,150,APPLICATION_CREATED,"{""source"":""EMAIL""}",,2026-09-16T10:04:26.000Z

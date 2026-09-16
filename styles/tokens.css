@@ -1,0 +1,185 @@
+/**
+ * Korosha palette. White floating cards on a gray-50 canvas, a saturated blue
+ * primary action, and the same blue tinted down for accents. Replaces the
+ * near-black/accent-only palette as of 2026-09-16: full-site restyle, decided
+ * with the user in place of the chunk 1-4 direction.
+ *
+ * Rules this file enforces by being the only source of color:
+ *   - Primary actions are --primary, a solid blue with white text for contrast.
+ *   - --accent-tint/--accent-deep (pale blue bg, dark blue text) mark active
+ *     states, focus rings and badges — never a button fill.
+ *   - Glass (backdrop blur) is for the sticky nav and toasts only.
+ *   - Page surfaces (cards) may use --shadow-card; only overlays use the
+ *     heavier --shadow-overlay.
+ *
+ * No hardcoded hex anywhere else in the codebase — everything routes through
+ * these variables so a palette change never needs a second pass over pages.
+ */
+
+:root {
+  /* Neutrals ------------------------------------------------------------
+     Tailwind gray scale: the canvas sits one step off white so floating
+     white cards read as elevated. */
+  --background: #f9fafb;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f3f4f6;
+  --surface-hover: #f3f4f6;
+  --surface-selected: #eff6ff;
+
+  /* Glass ---------------------------------------------------------------
+     White over the page at 10px. Nav and toasts only: a blur layer repaints on
+     every scroll frame, which is what made long lists lag. */
+  --glass-blur: 10px;
+  --glass-bg: rgb(255 255 255 / 0.72);
+  --glass-border: rgb(17 24 39 / 0.08);
+
+  /* Ink ------------------------------------------------------------------
+     Tailwind gray-900/500/400: dark primary text, muted metadata. */
+  --foreground: #111827;
+  --ink-muted: #6b7280;
+  --ink-faint: #9ca3af;
+  --on-accent: #ffffff;
+  --on-primary: #ffffff;
+
+  /* Blue accent — Tailwind blue scale. tint/deep (bg-blue-50/text-blue-700)
+     mark active nav pills, badges and selection; line/accent carry the
+     focus ring and anything that needs to read as text-safe. */
+  --accent-tint: #eff6ff;
+  --accent-soft: #bfdbfe;
+  --accent-line: #3b82f6;
+  --accent: #2563eb;
+  --accent-deep: #1d4ed8;
+  --accent-strong: #1e40af;
+
+  /* Focus: a 2px ring that carries the contrast, plus a soft halo outside it. */
+  --focus-ring: var(--accent-line);
+  --focus-halo: color-mix(in oklab, var(--accent-soft) 70%, transparent);
+
+  --line: #f3f4f6;
+  --line-strong: #e5e7eb;
+
+  /* Status swatches, computed for a light ground. The dark-theme values sat
+     at 1.7-2.7:1 on white. Status.color stores these NAMES, never hex, so a
+     palette change needs no data migration. --status-active is an indigo slate,
+     kept well away from the selection accent so an in-progress pill never
+     reads as "selected": 7.77:1 as text on its own 14% tint, 10.04:1 as a dot. */
+  --status-open: #345b8d;
+  --status-active: #3d3188;
+  --status-accepted: #1f754d;
+  --status-rejected: #ae3229;
+  --status-neutral: #615969;
+
+  --danger: #b3261e;
+  --danger-strong: #8f1e17;
+
+  /* Chart neutral: the fill for a bar/wedge with no semantic color of its own
+     (weekly columns, funnel, call outcomes). Chosen by the user 2026-09-16 to
+     replace the old --ink-faint gray fill. */
+  --chart-neutral: #cfb86d;
+
+  /* Type ------------------------------------------------------------------
+     Built around a 36px row: the list is a queue someone scans, not a page
+     someone reads. Weight carries the hierarchy, not size. */
+  --font-ui: var(--font-plex), -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --font-display: var(--font-plex), -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --font-mono-ui: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  /* The size scale (--text-2xs to --text-2xl) and tracking are in the @theme
+     block in app/globals.css, so Tailwind's text-* utilities use them. */
+
+  /* Spacing --------------------------------------------------------------
+     Restored after Phase 3 deleted them. Use these, not ad-hoc numbers. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Shell ---------------------------------------------------------------- */
+  --shell-width: 1180px;
+  --shell-pad: var(--space-6);
+  --row-h: 36px;
+
+  /* Primary action ---------------------------------------------------------
+     Solid blue-600 fill, white text; blue-700 on hover. Badges and active
+     states use the pale --accent-tint instead — this token is for buttons
+     only, so it stays saturated enough for AA contrast with white text. */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  /* Depth ----------------------------------------------------------------
+     --shadow-overlay for dialog/slide-over/menu/toast. --shadow-card is the
+     lighter one: every floating white card on the gray-50 canvas gets it.
+     Neutral slate at low alpha, no tint. */
+  --shadow-overlay: 0 12px 32px rgb(15 23 42 / 0.12);
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.06);
+  /* The Applicants page's outer wrapper card — a heavier float than
+     --shadow-card. Toned down 2026-09-16 after 0.28 read as too heavy. */
+  --shadow-elevated: 0 10px 28px rgb(0 0 0 / 0.2);
+
+  /* Motion — only where it communicates state. No decorative animation.
+     --k-spring is a critically damped (zeta = 1) unit step,
+     x(t) = 1 - (1 + wt)e^(-wt) with w*T = 8, sampled into linear(). It is
+     monotone, so it never overshoots; it reaches 0.997 before the final snap. */
+  --k-spring: linear(0, 0.012 2%, 0.062 5%, 0.135 8%, 0.22 11%, 0.337 15%, 0.449 19%, 0.572 24%, 0.692 30%, 0.795 37%, 0.874 45%, 0.934 55%, 0.97 67%, 0.988 80%, 1);
+  --duration-spring: 300ms;
+  --k-ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --k-ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --duration-press: 140ms;
+  --duration-press-scale: 120ms;
+  --duration-fade: 180ms;
+  --duration-exit: 120ms;
+  --duration-drawer-exit: 180ms;
+
+  color-scheme: light;
+}
+
+/* ===========================================================================
+   Compatibility layer for components/ui/*.
+
+   Remapped to light. Roles the new tokens already cover point straight at
+   them rather than duplicating a value. Prune when components/ui retires.
+   =========================================================================== */
+:root {
+  --scrim: rgb(22 20 26 / 0.28);
+  --surface-header: var(--surface-sunken);
+
+  /* The sidebar is a white card against the gray canvas, not a tinted frame:
+     bg-white + border-gray-100, per the 2026-09-16 shell. Its ink is the same
+     ink as everywhere else, except the active link, which takes the accent. */
+  --surface-sidebar: var(--surface);
+  --on-sidebar: var(--foreground);
+  --on-sidebar-muted: var(--ink-muted);
+  --on-sidebar-faint: var(--ink-faint);
+  --on-sidebar-accent: var(--accent-deep);
+
+  --accent-tint-line: var(--accent-soft);
+  --danger-tint: color-mix(in oklab, var(--danger) 12%, transparent);
+
+  /* An avatar is identity, not selection: neutral fill, full ink. */
+  --avatar-tint: var(--surface-sunken);
+  --avatar-ink: var(--foreground);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --glass-bg: var(--surface);
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --ink-muted: #374151;
+    --ink-faint: #4b5563;
+    --line: #d1d5db;
+    --line-strong: #9ca3af;
+    --glass-bg: var(--surface);
+    --focus-ring: var(--accent-strong);
+    --focus-halo: transparent;
+  }
+}

@@ -1,0 +1,9 @@
+id,key,label,color,sort_order,is_terminal,active,counts_as
+1,NEW,New,--status-open,0,false,true,OPEN
+2,SCREENING,Screening,--status-active,1,false,true,OPEN
+3,PHONE_SCREEN,Phone screen,--status-active,2,false,true,OPEN
+4,INTERVIEW,Interview,--status-active,3,false,true,OPEN
+5,OFFER,Offer,--status-accepted,4,false,true,OPEN
+6,HIRED,Hired,--status-accepted,5,true,true,ACCEPTED
+7,REJECTED,Rejected,--status-rejected,6,true,true,REJECTED
+8,WITHDRAWN,Withdrawn,--status-neutral,7,true,true,REJECTED

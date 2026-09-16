@@ -1,0 +1,368 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-ui);
+  --font-mono: var(--font-mono-ui);
+}
+
+/* Type scale and tracking live here, not in tokens.css: @theme is the single
+   source, so `text-sm` sets font-size and there is no second --text-sm to clash.
+   `static` always emits the variables, so raw var(--text-*) in CSS resolves. */
+@theme static {
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1.5;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.5;
+  --text-sm: 0.8125rem;
+  --text-sm--line-height: 1.5;
+  --text-md: 0.875rem;
+  --text-md--line-height: 1.5;
+  --text-lg: 1.0625rem;
+  --text-lg--line-height: calc(1.75 / 1.125);
+  --text-xl: 1.375rem;
+  --text-xl--line-height: calc(1.75 / 1.25);
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: calc(2 / 1.5);
+
+  /* Exactly two: tight for headings, wide for the uppercase label style. */
+  --tracking-*: initial;
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.1em;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-ui);
+  font-size: var(--text-md);
+  line-height: 1.5;
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  /* Stops a single word stranding on the last line of a heading. */
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* ===========================================================================
+   Glass. ONE definition, one backdrop-filter per element.
+
+   Never nest .k-glass inside .k-glass: a second blur layer compounds the first
+   and, on a light ground, the seam is obvious. Use a flat surface for inner
+   regions instead.
+   =========================================================================== */
+.k-glass {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(120%);
+  backdrop-filter: blur(var(--glass-blur)) saturate(120%);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .k-glass {
+    background: var(--surface);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+/* ===========================================================================
+   Page shell. One width, one padding, every page.
+   =========================================================================== */
+.k-shell {
+  width: 100%;
+  max-width: var(--shell-width);
+  margin-inline: auto;
+  padding-inline: var(--shell-pad);
+  padding-block: var(--space-8);
+}
+
+/* Digits must not jitter column to column in a dense list. */
+.k-tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* ===========================================================================
+   Dense list grid. The header and every row share one column definition so
+   they cannot drift apart.
+   =========================================================================== */
+.k-row {
+  height: var(--row-h);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-inline: var(--space-3);
+  border-bottom: 1px solid var(--line);
+  /* No transition: a recruiter crosses hundreds of rows an hour and a fading
+     hover tint lags behind the pointer. */
+}
+
+.k-row:last-child {
+  border-bottom: 0;
+}
+
+/* Single line, always. A wrapped cell breaks the 36px rhythm and the scan. */
+.k-cell {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ===========================================================================
+   Focus. Visible on every interactive element, keyboard only.
+   =========================================================================== */
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Two-tone, Apple-style: a 2px ring that carries the 3:1 contrast, and a soft
+   halo outside it. The ring sits 2px off the element, so it stays visible on
+   near-black primary buttons too. The halo replaces any box-shadow the element
+   has while it is focused. */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--focus-halo);
+}
+
+/* Rows. The selected bar is a pseudo-element, not a box-shadow, so no focus
+   treatment can paint over it. A focused row gets its ring inset 2px past the
+   bar and no halo, so the ring neither spills onto neighbouring rows nor hides
+   the bar. Both still show on a row that is selected and focused. */
+.ui-row {
+  position: relative;
+}
+
+.ui-row-selected::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  width: 2px;
+  background: var(--accent);
+  pointer-events: none;
+}
+
+.ui-row:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -4px;
+  box-shadow: none;
+}
+
+/* Skip link: essential for keyboard users, invisible until focused. */
+.k-skip-link {
+  position: absolute;
+  left: var(--space-3);
+  top: var(--space-3);
+  z-index: 100;
+  transform: translateY(-200%);
+  background: var(--surface);
+  color: var(--foreground);
+  border: 1px solid var(--accent-line);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+
+.k-skip-link:focus {
+  transform: translateY(0);
+}
+
+.ui-button {
+  transition: background-color var(--duration-press) ease,
+    border-color var(--duration-press) ease, color var(--duration-press) ease,
+    transform var(--duration-press-scale) var(--k-ease-out);
+}
+
+.ui-button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+/* Toolbars and sticky table headers over scrolling content. */
+.ui-sticky-head {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--surface-header);
+  box-shadow: 0 1px 0 var(--line);
+}
+
+/* ===========================================================================
+   Overlay motion. Enters use --k-spring (critically damped, no overshoot), so
+   movement starts on the frame the user acts and settles without bounce. Exits
+   are a shorter ease-out. This is state communication, not decoration — there
+   is no scroll or entrance animation anywhere.
+   =========================================================================== */
+.ui-scrim[data-state="open"] { animation: ui-fade-in var(--duration-fade) ease-out; }
+.ui-scrim[data-state="closed"] { animation: ui-fade-out var(--duration-exit) ease-out; }
+
+.ui-dialog-panel[data-state="open"] { animation: ui-dialog-in var(--duration-spring) var(--k-spring); }
+.ui-dialog-panel[data-state="closed"] { animation: ui-dialog-out var(--duration-exit) var(--k-ease-out); }
+
+/* Spatial consistency: the panel leaves along the edge it arrived from. It is
+   opaque, so it only moves; fading it as well would double the signal. */
+.ui-slide-panel[data-state="open"] { animation: ui-slide-in var(--duration-spring) var(--k-spring); }
+.ui-slide-panel[data-state="closed"] { animation: ui-slide-out var(--duration-drawer-exit) var(--k-ease-out); }
+
+/* Menus are interruptible: transitions, not keyframes, so reopening mid-close
+   (or closing mid-open) carries on from the menu's current opacity and scale.
+   The content stays mounted while closing (dropdown-menu.tsx), and scales from
+   its trigger, not its own center. A closed menu takes no pointer events at
+   once, and turns hidden (so it is neither focusable nor announced) only when
+   its fade has finished. */
+.ui-menu { transform-origin: var(--radix-dropdown-menu-content-transform-origin, center); }
+.ui-menu[data-state="open"] {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  transition:
+    opacity var(--duration-spring) var(--k-spring),
+    transform var(--duration-spring) var(--k-spring),
+    visibility 0s;
+}
+.ui-menu[data-state="closed"] {
+  opacity: 0;
+  transform: scale(0.96);
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity var(--duration-exit) var(--k-ease-out),
+    transform var(--duration-exit) var(--k-ease-out),
+    visibility 0s linear var(--duration-exit);
+}
+/* The first frame of a freshly mounted menu starts from the closed pose. */
+@starting-style {
+  .ui-menu[data-state="open"] { opacity: 0; transform: scale(0.96); }
+}
+
+@keyframes ui-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes ui-fade-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes ui-dialog-in { from { opacity: 0; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+@keyframes ui-dialog-out { from { opacity: 1; transform: scale(1); } to { opacity: 0; transform: scale(0.97); } }
+@keyframes ui-slide-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+@keyframes ui-slide-out { from { transform: translateX(0); } to { transform: translateX(100%); } }
+
+/* Reduced motion: no transform anywhere. Dialog and drawer swap their keyframes
+   for a plain opacity fade and menus drop their scale, so the state change still
+   reads; the press loses its scale. Durations and curves stay as above. */
+@media (prefers-reduced-motion: reduce) {
+  .ui-dialog-panel[data-state="open"],
+  .ui-slide-panel[data-state="open"] {
+    animation-name: ui-fade-in;
+  }
+  .ui-dialog-panel[data-state="closed"],
+  .ui-slide-panel[data-state="closed"] {
+    animation-name: ui-fade-out;
+  }
+  .ui-menu[data-state] {
+    transform: none;
+  }
+  @starting-style {
+    .ui-menu[data-state="open"] { transform: none; }
+  }
+  .ui-button:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+::selection {
+  background: var(--surface-selected);
+}
+
+/* Mobile nav panel: grows from the hamburger trigger it hangs below.
+   Entrance only — closing is instant, which matches how a toggle disclosure
+   is expected to behave and keeps this out of keyframe/retarget territory. */
+.k-mobile-nav {
+  transform-origin: top;
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity var(--duration-fade) var(--k-ease-out), transform var(--duration-fade) var(--k-ease-out);
+}
+
+@starting-style {
+  .k-mobile-nav { opacity: 0; transform: scale(0.97) translateY(-4px); }
+}
+
+/* Route content: a fast, transform-free fade only — this fires on every
+   navigation (tens of times a day), so it stays at the "near-imperceptible"
+   ceiling rather than a slide or morph. */
+.k-route-fade {
+  opacity: 1;
+  transition: opacity var(--duration-fade) var(--k-ease-out);
+}
+
+@starting-style {
+  .k-route-fade { opacity: 0; }
+}
+
+/* Donut chart: a flat-color mask sits over the finished chart and fades
+   itself out, rather than the chart animating its own opacity. Animating the
+   SVG's own opacity re-rasterizes its dashed, large-stroke-width paths on
+   every frame in some engines — the actual source of the jank, independent
+   of transitions vs WAAPI. A plain div has no such content, so its opacity
+   transition is compositor-only. */
+.k-donut-mask {
+  opacity: 0;
+  transition: opacity var(--duration-spring) var(--k-spring);
+}
+
+@starting-style {
+  .k-donut-mask { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .k-mobile-nav { transition: opacity var(--duration-fade) ease; transform: none; }
+  @starting-style {
+    .k-mobile-nav { transform: none; }
+  }
+  .k-route-fade { transition: opacity var(--duration-fade) ease; }
+  .k-donut-mask { transition: opacity var(--duration-fade) ease; }
+}
+
+/* ===========================================================================
+   Lead inbox grid. The header and every row share this one definition, so a
+   column cannot drift away from its heading.
+   =========================================================================== */
+.lead-grid {
+  display: grid;
+  grid-template-columns:
+    [name] minmax(0, 1fr)
+    [source] 7rem
+    [status] 8.5rem
+    [applied] 5.5rem
+    [actions] 8.5rem;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+@media (max-width: 720px) {
+  /* Source is the first column to go: status and age matter more on a phone. */
+  .lead-grid {
+    grid-template-columns: [name] minmax(0, 1fr) [status] 7rem [applied] 4rem [actions] 8rem;
+  }
+  .lead-grid > :nth-child(2) {
+    display: none;
+  }
+}
