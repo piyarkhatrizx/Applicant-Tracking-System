@@ -1,31 +1,33 @@
 # Korosha ATS
 
-An applicant tracking system for a small caregiver recruiting team, built as a self-contained demo that runs on local CSV files with no database and no accounts.
+An applicant tracking system for a small caregiver recruiting team, built as a self-contained demo that runs on local CSV files with no connected databse or in app calling.
 
-**Live demo:** [link to be added after deployment]
+**Live demo:** https://applicant-tracking-system-pearl.vercel.app/analytics
 
 ## Screenshots
 
-| Analytics | Current Status |
-| --- | --- |
-| ![Analytics](docs/analytics.png) | ![Current Status board](docs/current-status.png) |
-| **Applicants** | **History** |
-| ![Applicants](docs/applicants.png) | ![History](docs/history.png) |
+| | | |
+|---|---|---|
+| **Applicants** | **Analytics** | **History** |
+| <a href="https://github.com/user-attachments/assets/9c50e304-9318-4234-9e85-373697367ae0"><img src="https://github.com/user-attachments/assets/9c50e304-9318-4234-9e85-373697367ae0" alt="Applicants" width="320"></a> | <a href="https://github.com/user-attachments/assets/7e0e97dc-3b7b-4489-a6ea-b502e87eb833"><img src="https://github.com/user-attachments/assets/7e0e97dc-3b7b-4489-a6ea-b502e87eb833" alt="Analytics" width="320"></a> | <a href="https://github.com/user-attachments/assets/db9cd495-6954-4669-a65a-60bfea678728"><img src="https://github.com/user-attachments/assets/db9cd495-6954-4669-a65a-60bfea678728" alt="History" width="320"></a> |
+| Every active applicant, newest first, filterable by posting, with status, call, notes, and record access on each row. | Weekly application and call volume, status and source breakdowns, and conversion computed live from the data. | Finished applicants kept out of the working views with their full record intact, restorable at any time. |
+
+
 
 ## What it does
 
-- **Work the applicant list.** Every active applicant, newest first, filterable by job posting, with a status change, a call, notes and History on each row. Create new job postings from the same page.
-- **See current status.** A board with a column per status for every active applicant, including new submissions from the public apply form, for all postings or one. Change a status from a card or the candidate record. Statuses are editable in settings.
-- **Keep the history.** Notes, and a timeline of every status change, call and move to History on each candidate.
-- **Log calls.** A call flow records the outcome, duration and notes, adds a written summary to the history, shows earlier attempts, and can move the applicant to the next stage in the same step. Calls are simulated in this demo.
-- **History.** Move finished applicants out of the working views without losing them, and restore them at any time.
-- **See the numbers.** Applications and calls per week, status and source breakdowns, status conversion, time to hire and call connect rate, computed live from the data.
+**Analytics.** The landing view. Applications and calls per week, status and source breakdowns, status conversion, time to hire, and call connect rate, all computed live from the data rather than stored.
+
+**Applicants.** A list of every active applicant, newest first, filterable by job posting, with status change, call, notes, History, and a link to the full candidate record on each row. A board view shows a column per status, including new submissions from the public apply form, for all postings or just one. Statuses can be changed from a card or from the record itself, notes and a timeline of every status change and call live on each candidate, and new job postings are created from this same page. The call flow records outcome, duration, and notes, writes a summary into the timeline, shows earlier attempts, and can advance the applicant to the next stage in one step. Calls are simulated in this demo.
+
+**History.** Finished applicants moved out of the working views without being deleted. Everything on the record stays intact, and any of them can be restored at any time.
+
+**Settings.** Configuration for the pipeline itself, including the list of statuses used across the board, list, and candidate records.
 
 ## How it is built
 
 Next.js 15 (App Router), React 19 and TypeScript, styled with Tailwind CSS. Data lives in flat files: six CSVs in `data/` for job postings, statuses, applications, notes, call logs and an activity log, read and written through a single store module. There is no database, no account system and no external service at runtime, so the app runs as soon as it is installed.
 
-A Python script using only the standard library generates the demo data: 150 applications across six job postings. Tests run on Vitest.
 
 ## Running it locally
 
@@ -49,9 +51,4 @@ This demo is cut from an ATS I built during my internship. The recruiting workfl
 - **Hosting.** Where the filesystem is read-only, as on a hosted deployment, the store loads the CSVs into memory and applies changes there. Changes are held by the server instance that received them, so they reset when that instance restarts and on every redeploy.
 - **Data.** Every applicant, email, phone number and note is generated. No real applicant information is included.
 
-## Engineering notes
 
-- **Atomic writes.** The store writes each table to a temporary file and renames it over the original, so a crash mid-write never leaves a truncated CSV. The seed script replaces files the same way.
-- **One interface, two modes.** On first use the store tries a single write in `data/` and caches the result. If the directory is writable it reads and writes the files directly; if not, it loads each CSV into memory once and keeps changes there. The same `selectAll`, `selectOne`, `insert`, `update` and `remove` calls work in both modes.
-- **Reproducible data with current dates.** The seed simulates each applicant through the hiring statuses on a fixed calendar, using its own seeded random stream, then shifts the timeline to the present by whole weeks. Every run produces the same pipeline outcomes, timings and call results, and the dates always look recent.
-- **Checked numbers.** `python3 scripts/seed.py --check` validates the generated data against target rates for 14 consecutive days. `--report` recomputes the analytics from the CSVs without the app, so the analytics page can be compared against an independent calculation.
